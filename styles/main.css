@@ -1090,23 +1090,23 @@ header.overflow.fixed {
   header .navbar-brand {
     max-width: calc(100% - 60px);
     max-height: 52px;
-    padding: 9px 15px 0;
+    padding: 0;
   }
 }
 @media (min-width: 768px) {
   header .navbar-brand {
-    padding: 9 15px;
+    padding: 0 15px;
     height: auto;
   }
 }
 @media (min-width: 992px) {
   header .navbar-brand {
-    padding: 20px 22px 22px 22px;
+    padding: 5px 0 0 0;
   }
 }
 @media (min-width: 1200px) {
   header .navbar-brand {
-    padding: 20px 22px 22px 55px;
+    padding: 5px 0 0 55px;
   }
 }
 header .navbar-brand img {
@@ -2444,7 +2444,7 @@ input.btn.rounded {
   display: block;
 }
 .featured-artist {
-    background-image: url('images/about/about_bg.jpg');
+    background-image: url('../images/about/about_bg.jpg');
 }
 .featured-artist .rollover {
   width: 100%;
