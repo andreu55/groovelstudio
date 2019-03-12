@@ -1128,7 +1128,7 @@ header .navbar-brand img {
 }
 .navbar-default .navbar-nav > li > a {
   font-size: 20px;
-  text-transform: lowercase;
+  /* text-transform: lowercase; */
   padding: 10px 12px;
   color: #ffffff;
   -webkit-transition: color 0.3s;
@@ -1144,7 +1144,7 @@ header .navbar-brand img {
     margin: 0 16px;
   }
 }
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   .navbar-default .navbar-nav > li > a:before {
     content: "";
     width: 2px;
@@ -1169,7 +1169,7 @@ header .navbar-brand img {
     transition: width .3s ease 0s,left .3s ease 0s;
     width: 0;
   }
-}
+} */
 .navbar-default .navbar-nav > li > a:focus {
   color: #ffffff;
 }
