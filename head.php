@@ -13,7 +13,7 @@
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
-  
+
   <link rel="icon" type="image/png" href="favicon.png" sizes="196x196">
 
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
@@ -40,6 +40,3 @@
 
   <script src="scripts/vendor/modernizr.js"></script>
 </head>
-
-
-<html lang="en" dir="ltr">

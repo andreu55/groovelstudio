@@ -20,7 +20,6 @@
             <div class="slider-intro">
               <div id="slides">
                 <div class="overlay"></div>
-                <!--<img src="images/bg01.jpg" alt="slide1">-->
                 <div class="slides-container">
                   <img src="images/bg01.jpg" alt="slide1">
                   <img src="images/bg01.jpg" alt="slide2">
@@ -35,17 +34,26 @@
           <div class="logo-intro"><img src="" alt=""></div>
           <div id="owl-main-text" class="owl-carousel">
             <div class="item">
-              <h1 class="primary-title"><span style="font-size:68px;letter-spacing: 3px">Composición de Música</h1>
+              <h1 class="primary-title">Composición de Música</h1>
             </div>
             <div class="item">
-              <h1 class="primary-title"><span style="font-size:68px;letter-spacing: 3px">Diseño de sonido</h1>
+              <h1 class="primary-title">Diseño de sonido</h1>
             </div>
             <div class="item">
-              <h1 class="primary-title"><span style="font-size:68px;letter-spacing: 3px">Integración en Motor Gráfico</h1>
+              <h1 class="primary-title">Integración en Motor Gráfico</h1>
             </div>
           </div>
           <div class="voffset50"></div>
-          <a href="https://www.youtube.com/channel/UCBZTTVynuWw4uLgbmWXVSyg/featured"><img src="images/youtube1.png" alt="Youtube Channel" height="70" width="70"></a>
+          <button type="button" class="btn" data-toggle="modal" data-target=".modal-video">
+            <img src="images/youtube1.png" alt="Youtube Channel" height="70" width="70">
+          </button>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade modal-video" tabindex="-1" role="dialog" aria-labelledby="modal-videoLabel">
+          <div class="modal-dialog modal-lg" role="document">
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Z3MPmmyIyfo?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
         </div>
 
       </div>

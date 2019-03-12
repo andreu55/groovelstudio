@@ -751,7 +751,7 @@ textarea {
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 8.5px;
-  color: #ed2b45;
+  color: #bf3d35;
   font-size: 30px;
   line-height: 30px;
 }
@@ -777,7 +777,7 @@ textarea {
   line-height: normal;
   letter-spacing: normal;
   text-align: left;
-  color: #ed2b45;
+  color: #bf3d35;
 }
 .title.post {
   font-family: 'Roboto', sans-serif;
@@ -835,7 +835,7 @@ p strong {
 }
 p.quote-post {
   font-style: italic;
-  color: #ed2b45;
+  color: #bf3d35;
   line-height: 33px !important;
   font-size: 18px;
   margin: 57px 40px 65px;
@@ -849,7 +849,7 @@ p.quote-post {
   height: 10px;
 }
 .flickity-page-dots .dot.is-selected {
-  background-color: #ed2b45;
+  background-color: #bf3d35;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -1068,7 +1068,7 @@ header.overflow .navbar {
   min-height: 42px;
 }
 @media (min-width: 992px) {
-  header.overflow .navbar {
+  .nav.navbar-nav {
     padding: 20px 0;
   }
 }
@@ -1078,7 +1078,7 @@ header.overflow .navbar-brand {
 }
 @media (min-width: 1200px) {
   header.overflow .navbar-brand {
-    padding: 8px 55px 0;
+    padding: 10px 0 0 55px;
   }
 }
 header.overflow.fixed {
@@ -1121,11 +1121,11 @@ header .navbar-brand img {
 /*------------------------------------------------------------------
 [3. Navigation / #navbar]
 */
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   .navbar-default .navbar-nav {
     margin: 20px 0 15px;
   }
-}
+} */
 .navbar-default .navbar-nav > li > a {
   font-size: 20px;
   /* text-transform: lowercase; */
@@ -1149,7 +1149,7 @@ header .navbar-brand img {
     content: "";
     width: 2px;
     height: 2px;
-    background-color: #ed2b45;
+    background-color: #bf3d35;
     display: block;
     position: absolute;
     bottom: 12px;
@@ -1177,7 +1177,7 @@ header .navbar-brand img {
 .navbar-default .navbar-nav > li.active > a:hover,
 .navbar-default .navbar-nav > li.active > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
-  color: #ed2b45;
+  color: #bf3d35;
 }
 .navbar-default .navbar-nav > li.active > a:after,
 .navbar-default .navbar-nav > li.active > a:hover:after,
@@ -1203,7 +1203,7 @@ header .navbar-brand img {
 }
 .navbar-default .navbar-toggle:hover .icon-bar,
 .navbar-default .navbar-toggle:focus .icon-bar {
-  background-color: #ed2b45;
+  background-color: #bf3d35;
 }
 .navbar-default .navbar-collapse {
   max-height: 380px;
@@ -1245,7 +1245,7 @@ header .navbar-brand img {
 [4. Footer / #footer]
 */
 footer {
-  background-color: #ed2b45;
+  background-color: #bf3d35;
   color: #ffffff;
   text-transform: uppercase;
   padding: 35px 45px;
@@ -1388,13 +1388,13 @@ footer ul.menu-footer li a {
   color: #eaeaea;
   font-size: 50px;
   line-height: 50px;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
 }
 @media (min-width: 992px) {
   .primary-title {
-    font-size: 100px;
+    font-size: 68px;
     line-height: 90px;
-    letter-spacing: 20px;
+    letter-spacing: 3px;
   }
 }
 .coming-title {
@@ -1517,7 +1517,7 @@ footer ul.menu-footer li a {
 }
 .cssload-container > div {
   float: left;
-  background: #ed2b45;
+  background: #bf3d35;
   height: 100%;
   width: 7px;
   margin-right: 1px;
@@ -1860,7 +1860,7 @@ form.newsletter-form .form-group {
   transition: background-color 0.2s ease-out;
 }
 .btn.rounded {
-  background-color: #ed2b45;
+  background-color: #bf3d35;
   color: #ffffff;
   border: none;
   height: 41px;
@@ -1921,8 +1921,8 @@ input.btn.rounded {
 .btn-invert:active,
 .btn-invert.active {
   color: #ffffff;
-  background-color: #ed2b45;
-  border-color: #ed2b45;
+  background-color: #bf3d35;
+  border-color: #bf3d35;
 }
 .close-btn {
   background-image: url('../images/close-ajax.png');
@@ -2163,7 +2163,7 @@ input.btn.rounded {
   border: none;
   width: 64px;
   height: 64px;
-  background: #ed2b45;
+  background: #bf3d35;
   border-radius: 50%;
   position: relative;
   top: -28px;
@@ -2201,7 +2201,7 @@ input.btn.rounded {
   background-color: #353535;
 }
 .player.horizontal .audiojs .progress {
-  background-color: #ed2b45;
+  background-color: #bf3d35;
 }
 .player.horizontal .audiojs .time {
   bottom: -50px;
@@ -2484,7 +2484,7 @@ input.btn.rounded {
   transition: color 0.2s ease-out;
 }
 .featured-artist .rollover .social a:hover {
-  color: #ed2b45;
+  color: #bf3d35;
 }
 .featured-artist .rollover .social li {
   display: block;
@@ -2557,7 +2557,7 @@ ul.contact {
   margin: 26px 0 56px 7px;
 }
 ul.contact i {
-  color: #ed2b45;
+  color: #bf3d35;
   width: 30px;
 }
 ul.contact i.fa-mobile {
@@ -2599,8 +2599,8 @@ ul.contact li {
   }
 }
 .social-links a:hover {
-  background-color: #ed2b45;
-  border-color: #ed2b45;
+  background-color: #bf3d35;
+  border-color: #bf3d35;
 }
 /*------------------------------------------------------------------
 [6.13. list-posts]
@@ -2628,7 +2628,7 @@ p.date {
   position: absolute;
   top: 0;
   left: 15px;
-  background-color: #ed2b45;
+  background-color: #bf3d35;
   padding: 19px 19px 11px 19px;
 }
 p.date span {
@@ -2734,7 +2734,7 @@ p.date span.month {
   margin-bottom: 30px;
 }
 .quote {
-  border: 10px solid #ed2b45;
+  border: 10px solid #bf3d35;
   position: relative;
   margin: 0;
   width: 100%;
@@ -2764,7 +2764,7 @@ p.date span.month {
 }
 .quote p.author {
   font-size: 19px;
-  color: #ed2b45;
+  color: #bf3d35;
   letter-spacing: normal;
   margin-top: 20px;
 }
@@ -2772,7 +2772,7 @@ p.date span.month {
   content: "";
   width: 12px;
   height: 1px;
-  background-color: #ed2b45;
+  background-color: #bf3d35;
   display: inline-block;
   margin: 0 2px;
   position: relative;
@@ -2816,7 +2816,7 @@ p.date span.month {
   transition: opacity 0.25s ease-in-out;
 }
 .carousel-discography .gallery-cell .cover .rollover i {
-  color: #ed2b45;
+  color: #bf3d35;
   position: absolute;
   background-color: #ffffff;
   text-align: center;
@@ -2896,7 +2896,7 @@ p.date span.month {
 }
 .info-album p.artist {
   font-weight: 400;
-  color: #ed2b45;
+  color: #bf3d35;
   padding-bottom: 5px;
 }
 .info-album p.album-list {
@@ -3001,7 +3001,7 @@ ul.slider-twitter .flickity-page-dots .dot {
 ul.slider-twitter .flickity-page-dots .dot.is-selected {
   width: 10px;
   height: 10px;
-  background-color: #ed2b45;
+  background-color: #bf3d35;
   position: relative;
   top: 2px;
 }
@@ -3009,7 +3009,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
 [6.17. last-media]
 */
 .last-media {
-  border-top: 2px solid #ed2b45;
+  border-top: 2px solid #bf3d35;
   padding: 0 24px;
 }
 .last-media .filters {
@@ -3041,7 +3041,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
   cursor: pointer;
 }
 .last-media .filters li.is-checked {
-  border-color: #ed2b45;
+  border-color: #bf3d35;
   cursor: default;
 }
 .last-media .thumbnails {
@@ -3285,7 +3285,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
   background-color: #211E1E;
 }
 .player-album.inverse-color .disc-tracklist li:not(.playing-track) .track-info p.track-title {
-  color: #ed2b45;
+  color: #bf3d35;
 }
 .player-album.inverse-color .disc-tracklist li:not(.playing) a:hover {
   background-color: #3D3D3D;
@@ -3359,15 +3359,15 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
   background: url("../images/players-album.png") 1px -80px no-repeat;
 }
 .disc-tracklist li a:hover {
-  background-color: #ed2b45;
+  background-color: #bf3d35;
   background-color: #D9D9D9;
 }
 .disc-tracklist li a:hover .track-info {
-  border-color: #ed2b45;
+  border-color: #bf3d35;
   border-color: #D9D9D9;
 }
 .disc-tracklist li.playing a {
-  background-color: #ed2b45;
+  background-color: #bf3d35;
 }
 .disc-tracklist li.playing a:after {
   background-position: 1px -2px;
@@ -3375,7 +3375,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
   left: 22px;
 }
 .disc-tracklist li.playing a .track-info {
-  border-color: #ed2b45;
+  border-color: #bf3d35;
 }
 .disc-tracklist li.playing a .track-album,
 .disc-tracklist li.playing a .track-title {
@@ -3423,7 +3423,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
   display: none;
 }
 .disc-tracklist li .audiojs.playing {
-  background-color: #ed2b45;
+  background-color: #bf3d35;
 }
 .disc-tracklist li .audiojs.playing .scrubber,
 .disc-tracklist li .audiojs.playing .time,
@@ -3431,7 +3431,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
   display: block;
 }
 .disc-tracklist li.playing-track {
-  background-color: #ed2b45;
+  background-color: #bf3d35;
 }
 .disc-tracklist li.playing-track p,
 .disc-tracklist li.playing-track p.track-album {
@@ -3446,7 +3446,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
   top: 0;
   overflow: visible;
   background-image: none;
-  background-color: #ed2b45;
+  background-color: #bf3d35;
   background-color: #B4B2B2;
   box-shadow: none;
   width: 100%;
@@ -3649,7 +3649,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
 }
 .tour-info p.subtitle-tour {
   font-family: 'Roboto', sans-serif;
-  color: #ed2b45;
+  color: #bf3d35;
   text-transform: uppercase;
   font-weight: 500;
   margin-bottom: 12px;
@@ -3713,10 +3713,10 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
   }
 }
 .tour-info .dates-tour li:hover {
-  color: #ed2b45;
+  color: #bf3d35;
 }
 .tour-info .dates-tour li.active {
-  background-color: #ed2b45;
+  background-color: #bf3d35;
   color: #ffffff;
   border: none;
   position: relative;
@@ -3737,7 +3737,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
   height: 0;
   border-left: 14px solid transparent;
   border-right: 14px solid transparent;
-  border-bottom: 13px solid #ed2b45;
+  border-bottom: 13px solid #bf3d35;
   position: absolute;
   top: -12px;
   left: 50%;
@@ -3794,7 +3794,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
 }
 .upcomming-events-list li p span {
   display: block;
-  color: #ed2b45;
+  color: #bf3d35;
   font-family: 'Roboto', sans-serif;
 }
 .upcomming-events-list li .date-event {
@@ -3806,7 +3806,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
 }
 @media (min-width: 768px) {
   .upcomming-events-list li .date-event {
-    border-left: 2px solid #ed2b45;
+    border-left: 2px solid #bf3d35;
     max-width: 134px;
     float: left;
   }
@@ -3970,7 +3970,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
 .paginationposts .pagination > li.active > a,
 .paginationposts .pagination > li:hover > span,
 .paginationposts .pagination > li.active > span {
-  background-color: #ed2b45;
+  background-color: #bf3d35;
   color: #ffffff;
 }
 .paginationposts .pagination > li:first-child > a,
@@ -3992,7 +3992,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
 .paginationposts.inverse-color .pagination > li.active > a,
 .paginationposts.inverse-color .pagination > li:hover > span,
 .paginationposts.inverse-color .pagination > li.active > span {
-  background-color: #ed2b45;
+  background-color: #bf3d35;
 }
 /*------------------------------------------------------------------
 [6.23. shop]
@@ -4121,7 +4121,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
   width: 100%;
   background-color: red;
   color: #ffffff;
-  background-color: #ed2b45;
+  background-color: #bf3d35;
   font-size: 12px;
 }
 .ecommercebar .cart-big .acctions .btn.checkout {
@@ -4286,7 +4286,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
   content: attr(data-label);
   position: absolute;
   font-family: 'Roboto', sans-serif;
-  background: #ed2b45;
+  background: #bf3d35;
   color: #ffffff;
   text-transform: uppercase;
   top: 8px;
@@ -4301,7 +4301,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
 .shop-item .info .rating {
   font-size: 14px;
   margin: 23px 0 17px;
-  color: #ed2b45;
+  color: #bf3d35;
   display: inline-block;
 }
 .shop-item .info .rating i {
@@ -4314,7 +4314,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
   font-weight: 500;
   letter-spacing: 1px;
   font-size: 20px;
-  color: #ed2b45;
+  color: #bf3d35;
 }
 .shop-item .info .price .old-price {
   color: #9F9F9F;
@@ -4332,7 +4332,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
 }
 .shop-item .info .artist {
   font-weight: 400;
-  color: #ed2b45;
+  color: #bf3d35;
   padding-bottom: 5px;
 }
 /*------------------------------------------------------------------
@@ -4396,7 +4396,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
 }
 .post-details .post-comments .media > .pull-left {
   margin-right: 12px;
-  background-color: #ed2b45;
+  background-color: #bf3d35;
 }
 .post-details .post-comments .media-heading {
   font-weight: 700;
@@ -4420,7 +4420,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
 .post-details .post-comments .media-body .reply {
   font-size: 14px;
   display: block;
-  color: #ed2b45;
+  color: #bf3d35;
   font-weight: 700;
 }
 .post-details .post-reply form {
@@ -4455,7 +4455,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
   position: relative;
   top: 3px;
   left: 4px;
-  color: #ed2b45;
+  color: #bf3d35;
 }
 .sidebar .search {
   width: 100%;
@@ -4478,7 +4478,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
   font-size: 17px;
 }
 .sidebar .search .input-group-btn i {
-  color: #ed2b45;
+  color: #bf3d35;
 }
 .sidebar .social {
   margin-top: 27px;
@@ -4582,7 +4582,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
   transition: all 0.2s ease-out;
 }
 .sidebar .menu-sidebar li.active {
-  background-color: #ed2b45;
+  background-color: #bf3d35;
   color: #ffffff;
 }
 .sidebar .last-tweets,
@@ -4619,7 +4619,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
 .sidebar .last-comments .date,
 .sidebar .last-posts-sidebar .date {
   font-size: 13px;
-  color: #ed2b45;
+  color: #bf3d35;
   margin-top: 4px;
 }
 .sidebar .last-comments {
@@ -4654,8 +4654,8 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
 }
 .sidebar .list-tags li a:hover {
   color: #ffffff;
-  background-color: #ed2b45;
-  border-color: #ed2b45;
+  background-color: #bf3d35;
+  border-color: #bf3d35;
   text-decoration: none;
 }
 .sidebar .last-tweets li,
@@ -4699,7 +4699,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
 }
 .sidebar .last-tweets .tweet p a,
 .sidebar .last-comments .tweet p a {
-  color: #ed2b45;
+  color: #bf3d35;
   text-decoration: none;
 }
 .inverse-color .sidebar .title.small {

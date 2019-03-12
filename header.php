@@ -29,7 +29,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="#anchor00">
-        <img class="img-responsive" src="images/logo.png" alt="logo" style="height:60px">
+        <img class="img-responsive" src="images/logo.png" alt="logo" style="height:62px">
       </a>
     </div>
 

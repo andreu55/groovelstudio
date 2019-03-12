@@ -34,18 +34,28 @@
           <div class="logo-intro"><img src="" alt=""></div>
           <div id="owl-main-text" class="owl-carousel">
             <div class="item">
-              <h1 class="primary-title"><span style="font-size:68px;letter-spacing: 3px">Video Games Music</h1>
+              <h1 class="primary-title">Video Games Music</h1>
             </div>
             <div class="item">
-              <h1 class="primary-title"><span style="font-size:68px;letter-spacing: 3px">HQ Sound Effects</h1>
+              <h1 class="primary-title">HQ Sound Effects</h1>
             </div>
             <div class="item">
-              <h1 class="primary-title"><span style="font-size:68px;letter-spacing: 3px">Engine Interactive</h1>
+              <h1 class="primary-title">Engine Interactive</h1>
             </div>
           </div>
           <div class="voffset50"></div>
-          <h2 class="subtitle-text">LET'S CREATE TOGETHER </h2>
+          <h2 class="subtitle-text">LET'S CREATE TOGETHER</h2>
+          <button type="button" class="btn" data-toggle="modal" data-target=".modal-video">
+            <img src="images/youtube1.png" alt="Youtube Channel" height="70" width="70">
+          </button>
           <!--<a href="#anchor05" class="btn btn-invert">Learn more</a>-->
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade modal-video" tabindex="-1" role="dialog" aria-labelledby="modal-videoLabel">
+          <div class="modal-dialog modal-lg" role="document">
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Z3MPmmyIyfo?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
         </div>
 
       </div>
