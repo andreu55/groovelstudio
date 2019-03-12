@@ -1,92 +1,16 @@
-<!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Groovel Studio. Sound 4 Games</title>
-    <meta name="description" content="">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
 
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <?php
+    $lang = 'en';
+    require 'head.php'
+  ?>
 
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-
-    <link rel="stylesheet" href="styles/vendor/bootstrap.css">
-    <link rel="stylesheet" href="styles/vendor/font-awesome.min.css">
-    <link rel="stylesheet" href="styles/vendor/superslides.css">
-    <link rel="stylesheet" href="styles/vendor/owl.carousel.css">
-    <link rel="stylesheet" href="styles/vendor/owl.transitions.css">
-    <link rel="stylesheet" href="styles/vendor/flickity.min.css">
-    <link rel="stylesheet" href="styles/vendor/swipebox.min.css">
-    <link rel="stylesheet" href="styles/vendor/TimeCircles.css">
-
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/demo.css">
-
-    <link rel="stylesheet" href="styles/colors/color-yellow.css">
-    <link rel="stylesheet" href="styles/colors/color-lightblue.css">
-    <link rel="stylesheet" href="styles/colors/color-purple.css">
-    <link rel="stylesheet" href="styles/colors/color-green.css">
-    <link rel="stylesheet" href="styles/colors/color-militar.css">
-    <link rel="stylesheet" href="styles/colors/color-caqui.css">
-    <link rel="stylesheet" href="styles/colors/color-red.css">
-
-    <script src="scripts/vendor/modernizr.js"></script>
-  </head>
   <body data-spy="scroll" data-target="#navbar-muziq" data-offset="80">
 
-    <!-- LOADER -->
-    <div id="mask">
-        <div class="loader">
-          <!-- <img src="images/loading.gif" alt='loading'> -->
-          <div class="cssload-container">
-            <div class="cssload-shaft1"></div>
-            <div class="cssload-shaft2"></div>
-            <div class="cssload-shaft3"></div>
-            <div class="cssload-shaft4"></div>
-            <div class="cssload-shaft5"></div>
-            <div class="cssload-shaft6"></div>
-            <div class="cssload-shaft7"></div>
-            <div class="cssload-shaft8"></div>
-            <div class="cssload-shaft9"></div>
-            <div class="cssload-shaft10"></div>
-        </div>
-        </div>
-    </div>
-
-    <!-- HEADER -->
-    <header id="jHeader">
-      <nav class="navbar navbar-default" role="navigation">
-
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-            <span class="sr-only">Desplegar navegación</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#anchor00"><img src="images/logo.png" alt="logo"></a>
-        </div>
-
-        <div class="collapse navbar-collapse navbar-ex1-collapse" id="navbar-muziq">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#anchor00">Inicio</a></li>
-            <li><a href="#anchor01">Quiénes somos</a></li>
-            <li><a href="#anchor02">Qué Hacemos</a></li>
-            <li><a href="#anchor03">Trabajos</a></li>
-            <li><a href="#anchor04">Nuestra Música</a></li>
-            <li><a href="#anchor05">Contacta</a></li>
-            <li><a href="index_en.html"><img src="images/eng_flag.png" width="30" height="22" alt="ENG"/></a></li>
-           </ul>
-        </div>
-
-      </nav>
-    </header>
+    <?php
+      $barra = ['Home', 'About', 'What we do', 'Works', 'Our Music', 'Contact'];
+      $idioma = ['link' => 'index.php', 'img' => 'esp_flag.png', 'alt' => 'ESP'];
+      require 'header.php';
+    ?>
 
     <!-- INTRO -->
     <section class="intro full-width jIntro" id="anchor00">
@@ -96,11 +20,10 @@
             <div class="slider-intro">
               <div id="slides">
                 <div class="overlay"></div>
-                <!--<img src="images/bg01.jpg" alt="slide1">-->
                 <div class="slides-container">
-                  <img src="images/bg01.jpg" alt="slide1">
+                  <img src="images/bg02.jpg" alt="slide1">
                   <img src="images/bg01.jpg" alt="slide2">
-                  <img src="images/bg01.jpg" alt="slide3">
+                  <img src="images/bg03.png" alt="slide3">
                 </div>
               </div>
             </div>
@@ -111,17 +34,18 @@
           <div class="logo-intro"><img src="" alt=""></div>
           <div id="owl-main-text" class="owl-carousel">
             <div class="item">
-              <h1 class="primary-title"><span style="font-size:68px;letter-spacing: 3px">Composición de Música</h1>
+              <h1 class="primary-title"><span style="font-size:68px;letter-spacing: 3px">Video Games Music</h1>
             </div>
             <div class="item">
-              <h1 class="primary-title"><span style="font-size:68px;letter-spacing: 3px">Diseño de sonido</h1>
+              <h1 class="primary-title"><span style="font-size:68px;letter-spacing: 3px">HQ Sound Effects</h1>
             </div>
             <div class="item">
-              <h1 class="primary-title"><span style="font-size:68px;letter-spacing: 3px">Integración en Motor Gráfico</h1>
+              <h1 class="primary-title"><span style="font-size:68px;letter-spacing: 3px">Engine Interactive</h1>
             </div>
           </div>
           <div class="voffset50"></div>
-          <a href="https://www.youtube.com/channel/UCBZTTVynuWw4uLgbmWXVSyg/featured"><img src="images/youtube1.png" alt="Youtube Channel" height="70" width="70"></a>
+          <h2 class="subtitle-text">LET'S CREATE TOGETHER </h2>
+          <!--<a href="#anchor05" class="btn btn-invert">Learn more</a>-->
         </div>
 
       </div>
@@ -132,7 +56,7 @@
       <div class="container">
         <div class="info-album-player">
           <div class="album-cover"><img src="images/groovel_player.png" alt="groovel_player"></div>
-          <p class="album-title">Música de Muestra</p>
+          <p class="album-title">Preview Music</p>
           <p class="artist-name">Groovel</p>
         </div>
         <div class="player-content">
@@ -158,29 +82,65 @@
         <div class="row">
           <div class="col-md-8 col-md-offset-2">
             <div class="voffset70"></div>
-
+            <div class="separator-icon">
+              <i class="fa fa-microphone"></i>
+            </div>
             <div class="voffset30"></div>
-            <p class="pretitle">¿Quiénes somos?</p>
+            <p class="pretitle">2 MEN STUDIO</p>
             <div class="voffset20"></div>
-            <h2 class="title">Groovel Studio</h2>
+            <h2 class="title">Juan Novella & <br>Alberto Trigueros</h2>
             <div class="voffset80"></div>
           </div>
         </div>
         <div class="row">
           <div class="col-md-12">
-                 <div class="gallery-cell col-xs-12 col-sm-6 col-md-4 col-lg-3">
-               <div class="image">
+            <div class="voffset20"></div>
+            <div class="js-flickity" data-flickity-options="{ &quot;cellAlign&quot;: &quot;left&quot;, &quot;wrapAround&quot;: false, &quot;contain&quot;: true, &quot;prevNextButtons&quot;: true }">
+              <div class="gallery-cell col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                 <div>
+              <p><span style="font-size:18px;letter-spacing: 2px;line-height: 1px;">"As a teenager I found myself composing music for an indie band. I realized I was enjoying it more than anything before. After several years I can say I still feel the same."<br><br>Juan Novella "Hust"<br> Valencia, Spain</p>
+               </div>
+              </div>
+              <div class="gallery-cell col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="featured-artist">
+                  <div class="image">
                     <img src="images/about/juan_groovel.png" alt="">
-                  </div> </div>
-             <div class="gallery-cell col-xs-12 col-sm-6 col-md-4 col-lg-6">
-            <div class="blog";>Somos Alberto y Juan, componemos música y diseñamos sonido. Ofrecemos servicios de producción de música de una gran cantidad de géneros y estilos, y de diseño de sonido para cualquier contenido audiovisual. <br><br>Estamos localizados en Madrid y Valencia y además de la producción sonora trabajamos con software especializado de videojuegos (Middleware) y edición de video. <br><br>Te ayudamos a contar las historias de tus videojuegos y a transmitir sus emociones; diseñamos sonido a medida para tu trailer cinematográfico, de tus animaciones y cualquier medio digital.
-            </div>
-            </div>
-             <div class="gallery-cell col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                 <div class="image">
+                  </div>
+                  <div class="rollover">
+                    <ul class="social">
+                      <li><a href="https://twitter.com/Juan_Hust"><i class="fa fa-twitter"></i></a></li>
+                      <li><a href="https://soundcloud.com/juan-hust-novella"><i class="fa fa-soundcloud"></i></a></li>
+                    </ul>
+                    <div class="text">
+                      <h6 class="title-artist"> <span style="font-size:26px"> Juan <br>Novella <br>(Valencia)</h4>
+                      <p>MUSIC COMPOSER. ORCHESTRAL. ETHNIC. MODERN BAND. SOUND EFFECTS. ENGINE INTEGRATION.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery-cell col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="featured-artist">
+                  <div class="image">
                     <img src="images/about/alberto_groovel.png" alt="">
                   </div>
+                  <div class="rollover">
+                     <ul class="social">
+                      <li><a href="https://twitter.com/Groovel_IC"><i class="fa fa-twitter"></i></a></li>
+                      <li><a href="https://soundcloud.com/al-tp-66676346"><i class="fa fa-soundcloud"></i></a></li>
+                    </ul>
+                    <div class="text">
+                      <h6 class="title-artist"><span style="font-size:26px">Alberto <br>Trigueros <br>(Madrid)</h4>
+                      <p>ELECTRONIC GENRES. SOUND TECHNICIAN. PRODUCTION. MIX. MASTERING. SOUND EFFECTS.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery-cell col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <div>
+              <p><span style="font-size:18px;letter-spacing: 2px;line-height: 1px;">"I love trying to understand every sound, its texture. Looking for an equilibrium and the coherence in our mixes. I think that a sound that finds his place is a happy sound."<br><br>Alberto Trigueros<br> Madrid, Spain</p>
                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="voffset120"></div>
@@ -197,9 +157,9 @@
               <i class="fa fa-microphone"></i>
             </div>
             <div class="voffset30"></div>
-            <p class="pretitle">| MÚSICA | EFECTOS DE SONIDO | AUDIO INTERACTIVO | INTEGRACIÓN EN MOTOR |</p>
+            <p class="pretitle">| MUSIC | SOUND EFFECTS | INTERACTIVE | ENGINE INTEGRATION |</p>
             <div class="voffset20"></div>
-            <h2 class="title">QUÉ HACEMOS</h2>
+            <h2 class="title">WHAT WE DO</h2>
             <div class="voffset80"></div>
           </div>
         </div>
@@ -214,8 +174,8 @@
                   </div>
                   <div class="rollover">
                     <div class="text">
-                      <h4 class="title-artist"><span style="font-size:28px">Música <br>Original</h4>
-                      <p>ORQUESTAL. POP. ROCK. ELECTRÓNICA. OTROS.</p>
+                      <h4 class="title-artist"><span style="font-size:28px">Original <br>Music</h4>
+                      <p>ORCHESTRA. POP. ROCK. ELECTRONIC. OTHERS.</p>
                     </div>
                   </div>
                 </div>
@@ -227,8 +187,8 @@
                   </div>
                   <div class="rollover">
                     <div class="text">
-                      <h4 class="title-artist"><span style="font-size:28px">Diseño <br>Sonoro</h4>
-                      <p>DISEÑO DE SONIDO HQ. GRABACIÓN. FOLEY. LIBRERIAS.</p>
+                      <h4 class="title-artist"><span style="font-size:28px">Sound <br>Design</h4>
+                      <p>HIGH QUALITY SOUND DESIGN. RECORDING FOLEY. LIBRARY.</p>
                     </div>
                   </div>
                 </div>
@@ -240,8 +200,8 @@
                   </div>
                   <div class="rollover">
                     <div class="text">
-                      <h4 class="title-artist"><span style="font-size:28px">Audio <br>Interactiva</h4>
-                      <p>COMPORTAMIENTO INTERACTIVO. EXPERIENCIA DE USUARIO ÚNICA. WWISE / FMOD.</p>
+                      <h4 class="title-artist"><span style="font-size:28px">Interactive <br>Audio</h4>
+                      <p>INTERACTIVE BEHAVIOUR. UNIQUE USER EXPERIENCE. FMOD & WWISE.</p>
                     </div>
                   </div>
                 </div>
@@ -253,8 +213,8 @@
                   </div>
                   <div class="rollover">
                     <div class="text">
-                      <h4 class="title-artist"><span style="font-size:28px">Integración<br>Motor Gráfico</h4>
-                      <p>INTEGRACIÓN EN UNITY Y UNREAL ENGINE. PLUG-IN MASTER AUDIO. AUDIO MANAGER.</p>
+                      <h4 class="title-artist"><span style="font-size:28px">Engine <br>Integration </h4>
+                      <p>WORK WITH UNITY. MASTER AUDIO. UNREAL ENGINE. INTEGRATION.</p>
                     </div>
                   </div>
                 </div>
@@ -278,7 +238,7 @@
             <div class="voffset30"></div>
             <p class="pretitle"></p>
             <div class="voffset20"></div>
-            <h2 class="title">TRABAJOS</h2>
+            <h2 class="title">PUBLISHED WORKS</h2>
             <div class="voffset80"></div>
           </div>
         </div>
@@ -288,11 +248,11 @@
             <table width="100%">
 <thead>
 <tr>
-<th align="left"><span style="font-size:24px">JUEGO</th>
-<th align="left"><span style="font-size:24px">TIPO DE TRABAJO</th>
-<th align="left"><span style="font-size:24px">DESARROLLADOR</th>
-<th align="left"><span style="font-size:24px">PLATAFORMA</th>
-<th align="left"><span style="font-size:24px">AÑO</th>
+<th align="left"><span style="font-size:24px">Game</th>
+<th align="left"><span style="font-size:24px">Type of Work</th>
+<th align="left"><span style="font-size:24px">Developer</th>
+<th align="left"><span style="font-size:24px">Platform</th>
+<th align="left"><span style="font-size:24px">Year</th>
 </tr>
 </thead>
 <tbody>
@@ -305,9 +265,9 @@
 </tr>
 <tr>
 <td>Grefusa Heroes</td>
-<td>Música y Efectos de Sonido</td>
+<td>Music & Sound Effects</td>
 <td>No Spoon Lab</td>
-<td>Android / iOS</td>
+<td>Android & iOs</td>
 <td>2019</td>
 </tr>
 <tr>
@@ -319,63 +279,63 @@
 </tr>
 <tr>
 <td>Crisis Serena (WIP)</td>
-<td>Música y Efectos de Sonido</td>
+<td>Music & Sound Effects</td>
 <td>Pixel Powa</td>
 <td>PC</td>
 <td>2018</td>
 </tr>
 <tr>
 <td>River (WIP)</td>
-<td>Música y Efectos de Sonido</td>
+<td>Music & Sound Effects</td>
 <td>Studio Istmo</td>
 <td>PC</td>
 <td>2017</td>
 </tr>
 <tr>
 <td>Robo Ball</td>
-<td>Música</td>
+<td>Music</td>
 <td><a href="https://joanmartinezclari.wordpress.com/">Joan Martinez Clari</a></td>
 <td><a href="https://play.google.com/store/apps/details?id=com.caparra.games.ball">Android</a> / iOS</td>
 <td>2016</td>
 </tr>
 <tr>
 <td>GenPoc</td>
-<td>Música, Efectos de Sonido e Integración</td>
+<td>Music, Sound Effects &amp; Integration</td>
 <td><a href="http://www.genpoc.com/">Drassana Games</a></td>
 <td>PC</td>
 <td>2016</td>
 </tr>
 <tr>
 <td><a href="http://www.bluefxgames.com/App/JoeJump">Joe Jump</a></td>
-<td>Música</td>
+<td>Music</td>
 <td><a href="http://www.bluefxgames.com/">BlueFX Studio</a></td>
 <td><a href="https://play.google.com/store/apps/details?id=com.bluefxgames.joejump">Android</a> / iOS</td>
 <td>2016</td>
 </tr>
 <tr>
 <td>Tic Tac Traca</td>
-<td>Efectos de Sonido</td>
+<td>Sound Effects</td>
 <td><a href="http://www.laboratoryofdreams.com/">The Laboratory of Dreams</a></td>
 <td><a href="https://play.google.com/store/apps/details?id=com.laboratoryofdreams.tictactraca">Android</a> / iOS</td>
 <td>2016</td>
 </tr>
 <tr>
 <td>Mobsferatu</td>
-<td>Efectos de Sonido</td>
+<td>Sound Effects</td>
 <td><a href="http://www.cremagames.com/">Crema Games</a></td>
 <td><a href="https://cremagames.itch.io/mobsferatu">PC</a></td>
 <td>2015</td>
 </tr>
 <tr>
 <td>EdVE</td>
-<td>Producción de video y música</td>
+<td>Music &amp; Video Production</td>
 <td><a href="https://www.facebook.com/groups/devsfromspain/">Devsfromspain</a> &amp; <a href="http://www.aevi.org.es/desarrollo-espanol/iniciativas/">AEVI</a></td>
 <td><a href="http://www.groovelstudio.com/?page_id=487">Youtube</a></td>
 <td>2015</td>
 </tr>
 <tr>
 <td>Kill Blocks</td>
-<td>Música y Efectos de Sonido</td>
+<td>Music &amp; Sound Effects</td>
 <td><a href="http://mobilendo.com/">Mobilendo</a></td>
 <td><a href="https://play.google.com/store/apps/details?id=com.mobilendo.killblocks">Android</a> / <a href="https://itunes.apple.com/us/app/kill-blocks/id969491786?mt=8">iOS</a></td>
 <td>2015</td>
@@ -400,9 +360,9 @@
               <i class="fa fa-music"></i>
             </div>
             <div class="voffset30"></div>
-            <p class="pretitle"><span style="color:white">TRABAJOS Y PORTFOLIO</p>
+            <p class="pretitle"><span style="color:white">Works & Portfolio</p>
             <div class="voffset20"></div>
-            <h2 class="title">NUESTRA MÚSICA</h2>
+            <h2 class="title">OUR MUSIC</h2>
             <div class="voffset80"></div>
           </div>
         </div>
@@ -416,10 +376,10 @@
                     <img src="images/ourmusic/orchestralandsymphonic.png" alt="">
                     <div class="rollover">
                       <i class="fa fa-soundcloud"></i>
-                      <p>abrir lista de reproducción</p>
+                      <p>listen playlist</p>
                     </div>
                   </div>
-                  <p class="artist">ORQUESTAL Y SINFÓNICO</p>
+                  <p class="artist">Orchestral & Symphonic</p>
                 </div>
               </li>
               <li class="gallery-cell col-xs-12 col-sm-6 col-md-4">
@@ -428,10 +388,10 @@
                     <img src="images/ourmusic/electronicgenres.png" alt="">
                     <div class="rollover">
                       <i class="fa fa-soundcloud"></i>
-                      <p>abrir lista de reproducción</p>
+                      <p>listen playlist</p>
                     </div>
                   </div>
-                  <p class="artist">GÉNEROS ELECTRÓNICOS</p>
+                  <p class="artist">Electronic Genres</p>
                 </div>
               </li>
               <li class="gallery-cell col-xs-12 col-sm-6 col-md-4">
@@ -440,10 +400,10 @@
                     <img src="images/ourmusic/modernband.png" alt="">
                     <div class="rollover">
                       <i class="fa fa-soundcloud"></i>
-                      <p>abrir lista de reproducción</p>
+                      <p>listen playlist</p>
                     </div>
                   </div>
-                  <p class="artist">BANDA MODERNA</p>
+                  <p class="artist">Modern Band</p>
                 </div>
               </li>
               <li class="gallery-cell col-xs-12 col-sm-6 col-md-4">
@@ -455,7 +415,7 @@
                       <p>listen playlist</p>
                     </div>
                   </div>
-                  <p class="artist">RETRO</p>
+                  <p class="artist">Retro</p>
                 </div>
               </li>
               <li class="gallery-cell col-xs-12 col-sm-6 col-md-4">
@@ -464,10 +424,10 @@
                     <img src="images/ourmusic/folkandethinc.png" alt="">
                     <div class="rollover">
                       <i class="fa fa-soundcloud"></i>
-                      <p>abrir lista de reproducción</p>
+                      <p>listen playlist</p>
                     </div>
                   </div>
-                  <p class="artist">ÉTNICO Y FOLK</p>
+                  <p class="artist">Folk & Ethnic</p>
                 </div>
               </li>
             </ul>
@@ -493,9 +453,9 @@
               <i class="fa fa fa-microphone"></i>
             </div>
             <div class="voffset30"></div>
-            <p class="pretitle">¡MANTENTE EN CONTACTO</p>
+            <p class="pretitle">get in touch</p>
             <div class="voffset20"></div>
-            <h2 class="title">Saludanos!</h2>
+            <h2 class="title">say hello!</h2>
             <div class="voffset80"></div>
           </div>
         </div>
@@ -503,17 +463,17 @@
           <div class="col-sm-6 col-md-7">
             <form action="mail.php" method="post" id="contactform" class="contact-form">
               <div class="form-group">
-                <label class="title small" for="name">Tu nombre:</label>
+                <label class="title small" for="name">Your name:</label>
                 <input type="text" placeholder="Full Name" name="name" id="name" class="text name required">
               </div>
 
               <div class="form-group">
-                <label class="title small" for="email">Tu E-mail:</label>
+                <label class="title small" for="email">Your email:</label>
                 <input type="email" placeholder="Your Email" name="email" id="email" class="text email required">
               </div>
 
               <div class="form-group">
-                <label class="title small" for="message">Tu mensaje:</label>
+                <label class="title small" for="message">Your message:</label>
                 <textarea name="message" class="text area required" id="message" placeholder="Type Message"></textarea>
               </div>
 
@@ -524,7 +484,7 @@
           </div>
           <div class="col-sm-6 col-md-5">
             <div class="col-contact">
-              <h4 class="title small">Estudio de Música</h4>
+              <h4 class="title small">Music Studio</h4>
               <div class="voffset20"></div>
               <p>Madrid : Alberto Trigueros  - alberto@groovelstudio.com</p>
               <p>Valencia : Juan Novella - juan_hust@groovelstudio.com - @juan_hust</p>
@@ -532,7 +492,7 @@
                 <li><i class="fa fa-twitter"></i> @groovelstudio</li>
                 <li><i class="fa fa-envelope"></i> groovelstudio@gmail.com</li>
               </ul>
-              <h4 class="title small">¡Búscanos en redes sociales!</h4>
+              <h4 class="title small">Get socialized with us</h4>
               <ul class="social-links">
                 <li><a href="https://soundcloud.com/groovel-studio"><i class="fa fa-soundcloud"></i></a></li>
                 <li><a href="https://twitter.com/GroovelStudio"><i class="fa fa-twitter"></i></a></li>
@@ -549,7 +509,7 @@
     <!-- FOOTER -->
     <footer>
       <div class="container">
-        <p class="copy">@2017. TODA LA MÚSICA Y TRABAJOS PROTEGIDOS BAJO LICENCIA CREATIVE COMMONS.</p>
+        <p class="copy">© 2017. All Music and Works protected under a Creative Commons licence.</p>
         <ul class="menu-footer">
           <li><a href="#"></a></li>
           <li><a href="#"></a></li>
