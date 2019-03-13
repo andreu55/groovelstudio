@@ -41,7 +41,7 @@
         <li><a href="#anchor03"><?= $barra[3] ?></a></li>
         <li><a href="#anchor04"><?= $barra[4] ?></a></li>
         <li><a href="#anchor05"><?= $barra[5] ?></a></li>
-        <li><a href="<?= $idioma['link'] ?>"><img src="images/<?= $idioma['img'] ?>" width="30" height="22" alt="<?= $idioma['alt'] ?>"/></a></li>
+        <li><a href="<?= $idioma['link'] ?>"><img src="images/<?= $idioma['img'] ?>" width="26" alt="<?= $idioma['alt'] ?>"/></a></li>
       </ul>
     </div>
 
