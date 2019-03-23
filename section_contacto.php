@@ -56,11 +56,9 @@
           </ul>
           <h4 class="title small"><?= $buscanos ?></h4>
           <div class="social-links">
-            <li><a href="https://soundcloud.com/groovel-studio"><i class="fa fa-soundcloud"></i></a></li>
-            <li><a href="https://twitter.com/GroovelStudio"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="https://www.facebook.com/GroovelStudio"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/groovel-studio-a363bbb6/"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="https://www.youtube.com/channel/UCBZTTVynuWw4uLgbmWXVSyg"><i class="fa fa-youtube"></i></a></li>
+            <?php foreach ($social_links as $s): ?>
+              <li><a href="<?= $s['url'] ?>"><i class="fa fa-fw fa-<?= $s['icon'] ?>"></i></a></li>
+            <?php endforeach; ?>
           </div>
         </div>
       </div>
