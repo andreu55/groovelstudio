@@ -25,11 +25,9 @@
           <!-- </div> -->
         <?php endforeach; ?>
       </div>
-      <!-- <div class="voffset50"></div> -->
-      <button type="button" class="btn btn-sm btn-youtube" data-toggle="modal" data-target=".modal-video">
-        <!-- <img src="images/youtube1.png" alt="Youtube Channel" height="70" width="70"> -->
-        <i class="fa fa-youtube-play fa-5x" aria-hidden="true"></i>
-      </button>
+
+      <!-- Boton que abre el video -->
+      <i class="fa fa-youtube-play fa-5x youtube-color hidden-xs" aria-hidden="true" data-toggle="modal" data-target=".modal-video"></i>
 
     </div>
 

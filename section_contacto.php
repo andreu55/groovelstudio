@@ -38,23 +38,23 @@
           <div class="voffset80"></div>
         </form>
       </div>
-      <div class="col-sm-6 col-md-5">
+      <div class="col-sm-6 col-md-5 centrado-en-movil">
         <div class="col-contact">
-          <h4 class="title small"><?= $estudio_musica ?></h4>
+          <h4 class="title small centrado-en-movil"><?= $estudio_musica ?></h4>
           <div class="voffset20"></div>
           <p>
             Madrid : <b>Alberto Trigueros</b><br>
             <em>alberto@groovelstudio.com</em>
           </p>
           <p>
-            Valencia : <b>Juan Novella</b>
+            Valencia : <b>Juan Novella</b><br>
             <em>juan_hust@groovelstudio.com - @juan_hust</em>
           </p>
           <ul class="contact">
             <li><i class="fa fa-twitter"></i> @groovelstudio</li>
             <li><i class="fa fa-envelope"></i> groovelstudio@gmail.com</li>
           </ul>
-          <h4 class="title small"><?= $buscanos ?></h4>
+          <h4 class="title small centrado-en-movil"><?= $buscanos ?></h4>
           <div class="social-links">
             <?php foreach ($social_links as $s): ?>
               <li><a href="<?= $s['url'] ?>"><i class="fa fa-fw fa-<?= $s['icon'] ?>"></i></a></li>

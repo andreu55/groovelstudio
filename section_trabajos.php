@@ -59,50 +59,50 @@
             <tr>
               <td>Robo Ball</td>
               <td>Música</td>
-              <td><a href="https://joanmartinezclari.wordpress.com/">Joan Martinez Clari</a></td>
-              <td><a href="https://play.google.com/store/apps/details?id=com.caparra.games.ball">Android</a> / iOS</td>
+              <td><a target="_blank" href="https://joanmartinezclari.wordpress.com/">Joan Martinez Clari</a></td>
+              <td><a target="_blank" href="https://play.google.com/store/apps/details?id=com.caparra.games.ball">Android</a> / iOS</td>
               <td>2016</td>
             </tr>
             <tr>
               <td>GenPoc</td>
               <td>Música, Efectos de Sonido e Integración</td>
-              <td><a href="http://www.genpoc.com/">Drassana Games</a></td>
+              <td><a target="_blank" href="http://www.genpoc.com/">Drassana Games</a></td>
               <td>PC</td>
               <td>2016</td>
             </tr>
             <tr>
-              <td><a href="http://www.bluefxgames.com/App/JoeJump">Joe Jump</a></td>
+              <td><a target="_blank" href="http://www.bluefxgames.com/App/JoeJump">Joe Jump</a></td>
               <td>Música</td>
-              <td><a href="http://www.bluefxgames.com/">BlueFX Studio</a></td>
-              <td><a href="https://play.google.com/store/apps/details?id=com.bluefxgames.joejump">Android</a> / iOS</td>
+              <td><a target="_blank" href="http://www.bluefxgames.com/">BlueFX Studio</a></td>
+              <td><a target="_blank" href="https://play.google.com/store/apps/details?id=com.bluefxgames.joejump">Android</a> / iOS</td>
               <td>2016</td>
             </tr>
             <tr>
               <td>Tic Tac Traca</td>
               <td>Efectos de Sonido</td>
-              <td><a href="http://www.laboratoryofdreams.com/">The Laboratory of Dreams</a></td>
-              <td><a href="https://play.google.com/store/apps/details?id=com.laboratoryofdreams.tictactraca">Android</a> / iOS</td>
+              <td><a target="_blank" href="http://www.laboratoryofdreams.com/">The Laboratory of Dreams</a></td>
+              <td><a target="_blank" href="https://play.google.com/store/apps/details?id=com.laboratoryofdreams.tictactraca">Android</a> / iOS</td>
               <td>2016</td>
             </tr>
             <tr>
               <td>Mobsferatu</td>
               <td>Efectos de Sonido</td>
-              <td><a href="http://www.cremagames.com/">Crema Games</a></td>
-              <td><a href="https://cremagames.itch.io/mobsferatu">PC</a></td>
+              <td><a target="_blank" href="http://www.cremagames.com/">Crema Games</a></td>
+              <td><a target="_blank" href="https://cremagames.itch.io/mobsferatu">PC</a></td>
               <td>2015</td>
             </tr>
             <tr>
               <td>EdVE</td>
               <td>Producción de video y música</td>
-              <td><a href="https://www.facebook.com/groups/devsfromspain/">Devsfromspain</a> &amp; <a href="http://www.aevi.org.es/desarrollo-espanol/iniciativas/">AEVI</a></td>
-              <td><a href="http://www.groovelstudio.com/?page_id=487">Youtube</a></td>
+              <td><a target="_blank" href="https://www.facebook.com/groups/devsfromspain/">Devsfromspain</a> &amp; <a target="_blank" href="http://www.aevi.org.es/desarrollo-espanol/iniciativas/">AEVI</a></td>
+              <td><a target="_blank" href="http://www.groovelstudio.com/?page_id=487">Youtube</a></td>
               <td>2015</td>
             </tr>
             <tr>
               <td>Kill Blocks</td>
               <td>Música y Efectos de Sonido</td>
-              <td><a href="http://mobilendo.com/">Mobilendo</a></td>
-              <td><a href="https://play.google.com/store/apps/details?id=com.mobilendo.killblocks">Android</a> / <a href="https://itunes.apple.com/us/app/kill-blocks/id969491786?mt=8">iOS</a></td>
+              <td><a target="_blank" href="http://mobilendo.com/">Mobilendo</a></td>
+              <td><a target="_blank" href="https://play.google.com/store/apps/details?id=com.mobilendo.killblocks">Android</a> / <a target="_blank" href="https://itunes.apple.com/us/app/kill-blocks/id969491786?mt=8">iOS</a></td>
               <td>2015</td>
             </tr>
           </tbody>

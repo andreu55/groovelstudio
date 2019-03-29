@@ -1,5 +1,5 @@
 <!-- ABOUT -->
-<section class="section featured-artists" id="anchor01">
+<section class="section featured-artists quienes-somos" id="anchor01">
   <div class="container">
     <div class="row">
       <div class="text-center">
