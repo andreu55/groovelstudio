@@ -46,3 +46,28 @@
     </ul>
   </nav>
 </section>
+
+<!-- PLAYER -->
+<div class="player horizontal">
+  <div class="container">
+    <div class="info-album-player">
+      <div class="album-cover"><img src="images/groovel_player.png" alt="groovel_player"></div>
+      <p class="album-title">Música de Muestra</p>
+      <p class="artist-name">Groovel</p>
+    </div>
+    <div class="player-content">
+      <audio preload></audio>
+      <ol class="playlist">
+        <li><a href="#" data-src="mp3/windroseisland.mp3">Windrose Island</a></li>
+        <li><a href="#" data-src="mp3/arcadeapoclypse.mp3">Arcade Apocalypse</a></li>
+        <li><a href="#" data-src="mp3/oneforsorrow.mp3">One for Sorrow</a></li>
+        <li><a href="#" data-src="mp3/cavern.mp3">Awakening of Crescentia</a></li>
+      </ol>
+      <div class="nextprev">
+        <span class="prev">prev</span>
+        <span class="next">next</span>
+      </div>
+      <span class="btnloop">loop</span>
+    </div>
+  </div>
+</div>

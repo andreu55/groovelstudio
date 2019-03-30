@@ -2,29 +2,26 @@
 <section class="section featured-artists" id="anchor03">
   <div class="container">
     <div class="row">
-      <div class="col-md-8 col-md-offset-2">
+      <div class="text-center">
         <div class="voffset70"></div>
         <div class="separator-icon">
           <i class="fa fa-microphone"></i>
         </div>
-        <div class="voffset30"></div>
-        <p class="pretitle"></p>
         <div class="voffset20"></div>
         <h2 class="title"><?= $titulo ?></h2>
         <div class="voffset80"></div>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-12">
-        <div class="voffset20"></div>
+      <div class="col-xs-12">
         <table class="table">
           <thead>
             <tr>
-              <th>JUEGO</th>
-              <th>TIPO DE TRABAJO</th>
-              <th>DESARROLLADOR</th>
-              <th>PLATAFORMA</th>
-              <th>AÑO</th>
+              <th><?=$titulos_tabla[0]?></th>
+              <th><?=$titulos_tabla[1]?></th>
+              <th><?=$titulos_tabla[2]?></th>
+              <th><?=$titulos_tabla[3]?></th>
+              <th><?=$titulos_tabla[4]?></th>
             </tr>
           </thead>
           <tbody>
