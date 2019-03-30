@@ -28,7 +28,6 @@
   <!-- <link rel="stylesheet" href="styles/vendor/TimeCircles.css"> -->
 
   <link rel="stylesheet" href="styles/main.css">
-  <link rel="stylesheet" href="styles/demo.css">
 
   <!-- <link rel="stylesheet" href="styles/colors/color-yellow.css"> -->
   <!-- <link rel="stylesheet" href="styles/colors/color-lightblue.css"> -->

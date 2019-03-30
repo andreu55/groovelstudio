@@ -52,20 +52,20 @@
 
 
   $titulo = "QUÉ HACEMOS";
-  $subtitulo = "MÚSICA | EFECTOS DE SONIDO | AUDIO INTERACTIVO | INTEGRACIÓN EN MOTOR";
+  $subtitulo = "MÚSICA &nbsp;|&nbsp; EFECTOS DE SONIDO &nbsp;|&nbsp; AUDIO INTERACTIVO &nbsp;|&nbsp; INTEGRACIÓN EN MOTOR";
 
   $imagenes = [
-  ['src' => 'originalmusic.png', 'alt' => 'Composición de Música'],
-  ['src' => 'sounddesign.png', 'alt' => 'Efectos de Sonido'],
-  ['src' => 'interactiveaudio.png', 'alt' => 'Diseño sonoro Adaptativo'],
-  ['src' => 'engineintegration.png', 'alt' => 'Integración en el Motor Gráfico'],
+    ['src' => 'originalmusic.png', 'alt' => 'Composición de Música', 'texto' => 'ORQUESTAL &nbsp;|&nbsp; POP &nbsp;|&nbsp; ROCK &nbsp;|&nbsp; ELECTRÓNICA &nbsp;|&nbsp; OTROS'],
+    ['src' => 'sounddesign.png', 'alt' => 'Efectos de Sonido', 'texto' => 'DISEÑO DE SONIDO HQ &nbsp;|&nbsp; GRABACIÓN &nbsp;|&nbsp; FOLEY &nbsp;|&nbsp; LIBRERIAS'],
+    ['src' => 'interactiveaudio.png', 'alt' => 'Diseño sonoro Adaptativo', 'texto' => 'COMPORTAMIENTO INTERACTIVO &nbsp;|&nbsp; EXPERIENCIA DE USUARIO ÚNICA &nbsp;|&nbsp; WWISE/FMOD'],
+    ['src' => 'engineintegration.png', 'alt' => 'Integración en el Motor Gráfico', 'texto' => 'INTEGRACIÓN EN UNITY Y UNREAL ENGINE &nbsp;|&nbsp; PLUG-IN MASTER AUDIO &nbsp;|&nbsp; AUDIO MANAGER'],
   ];
 
   // Bloque Que Hacemos
   require 'section_que_hacemos.php';
 
 
-  $titulo = "Trabajos";
+  $titulo = "Proyectos";
   $titulos_tabla = [
     'JUEGO',
     'TIPO DE TRABAJO',
@@ -73,9 +73,22 @@
     'PLATAFORMA',
     'AÑO',
   ];
+  $filas_tabla = [
+    ['Grefusa Heroes', 'Música y Efectos de Sonido', 'No Spoon Lab', 'Android / iOS', '2019'],
+    ['My Granny Lala and Me', 'Sound Effects', 'Beatriz Olcina', 'PC', '2019'],
+    ['Crisis Serena (WIP)', 'Música y Efectos de Sonido', 'Pixel Powa', 'PC', '2018'],
+    ['River (WIP)', 'Música y Efectos de Sonido', 'Studio Istmo', 'PC', '2017'],
+    ['Robo Ball', 'Música', '<a target="_blank" href="https://joanmartinezclari.wordpress.com/">Joan Martinez Clari</a>', '<a target="_blank" href="https://play.google.com/store/apps/details?id=com.caparra.games.ball">Android</a> / iOS', '2016'],
+    ['GenPoc', 'Música, Efectos de Sonido e Integración', '<a target="_blank" href="http://www.genpoc.com/">Drassana Games</a>', 'PC', '2016'],
+    ['<a target="_blank" href="http://www.bluefxgames.com/App/JoeJump">Joe Jump</a>', 'Música', '<a target="_blank" href="http://www.bluefxgames.com/">BlueFX Studio</a>', '<a target="_blank" href="https://play.google.com/store/apps/details?id=com.bluefxgames.joejump">Android</a> / iOS', '2016'],
+    ['Tic Tac Traca', 'Efectos de Sonido', '<a target="_blank" href="http://www.laboratoryofdreams.com/">The Laboratory of Dreams</a>', '<a target="_blank" href="https://play.google.com/store/apps/details?id=com.laboratoryofdreams.tictactraca">Android</a> / iOS', '2016'],
+    ['Mobsferatu', 'Efectos de Sonido', '<a target="_blank" href="http://www.cremagames.com/">Crema Games</a>', '<a target="_blank" href="https://cremagames.itch.io/mobsferatu">PC</a>', '2015'],
+    ['EdVE', 'Producción de video y música', '<a target="_blank" href="https://www.facebook.com/groups/devsfromspain/">Devsfromspain</a> &amp; <a target="_blank" href="http://www.aevi.org.es/desarrollo-espanol/iniciativas/">AEVI</a>', '<a target="_blank" href="http://www.groovelstudio.com/?page_id=487">Youtube</a>', '2015'],
+    ['Kill Blocks', 'Música y Efectos de Sonido', '<a target="_blank" href="http://mobilendo.com/">Mobilendo</a>', '<a target="_blank" href="https://play.google.com/store/apps/details?id=com.mobilendo.killblocks">Android</a> / <a target="_blank" href="https://itunes.apple.com/us/app/kill-blocks/id969491786?mt=8">iOS</a>', '2015']
+  ];
 
-  // Bloque Tabla Trabajos
-  require 'section_trabajos.php';
+  // Bloque Tabla Proyectos
+  require 'section_proyectos.php';
 
 
   $titulo = "NUESTRA MÚSICA";

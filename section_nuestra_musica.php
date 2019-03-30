@@ -1,6 +1,11 @@
+<!-- DETAILS DISCO -->
+<div id="project-show"></div>
+<div class="section player-album project-window">
+  <div class="project-content"></div><!-- AJAX Dinamic Content -->
+</div>
+
 <!-- OUR MUSIC -->
 <section class="section discography inverse-color" id="anchor04">
-  <div id="discography"></div>
   <div class="container">
     <div class="row">
       <div class="text-center">
@@ -36,10 +41,5 @@
         <div class="voffset90"></div>
       </div>
     </div>
-  </div>
-  <!-- DETAILS DISCO -->
-  <div id="project-show"></div>
-  <div class="section player-album project-window">
-    <div class="project-content"></div><!-- AJAX Dinamic Content -->
   </div>
 </section>
