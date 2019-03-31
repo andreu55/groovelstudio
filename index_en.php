@@ -1,8 +1,11 @@
 
   <?php
 
+    require 'database.php';
+
+    // head, header, barra superior, iconos sociales
     $lang = 'en';
-    $description = 'Diseñamos sonido a medida. Te ayudamos a contar las historias de tus videojuegos y a transmitir sus emociones.';
+    $description = 'We compose music and design sound for videogames';
     $barra = ['Home',
       'About',
       'What we do',
@@ -15,37 +18,37 @@
       'src' => 'images/esp_flag.png',
       'alt' => 'ESP'
     ];
-    $social_links = [
-      ['nombre' => 'SoundCloud', 'icon' => 'soundcloud', 'url' => 'https://soundcloud.com/groovel-studio'],
-      ['nombre' => 'Twitter', 'icon' => 'twitter', 'url' => 'https://twitter.com/GroovelStudio'],
-      ['nombre' => 'Facebook', 'icon' => 'facebook', 'url' => 'https://www.facebook.com/GroovelStudio'],
-      ['nombre' => 'LinkedIn', 'icon' => 'linkedin', 'url' => 'https://www.linkedin.com/in/groovel-studio-a363bbb6/'],
-      ['nombre' => 'YouTube', 'icon' => 'youtube', 'url' => 'https://www.youtube.com/channel/UCBZTTVynuWw4uLgbmWXVSyg'],
-    ];
+    // Ahora cargan en database.php
+    // $social_links = [
+    //   ['nombre' => 'SoundCloud', 'icon' => 'soundcloud', 'url' => 'https://soundcloud.com/groovel-studio'],
+    //   ['nombre' => 'Twitter', 'icon' => 'twitter', 'url' => 'https://twitter.com/GroovelStudio'],
+    //   ['nombre' => 'Facebook', 'icon' => 'facebook', 'url' => 'https://www.facebook.com/GroovelStudio'],
+    //   ['nombre' => 'LinkedIn', 'icon' => 'linkedin', 'url' => 'https://www.linkedin.com/in/groovel-studio-a363bbb6/'],
+    //   ['nombre' => 'YouTube', 'icon' => 'youtube', 'url' => 'https://www.youtube.com/channel/UCBZTTVynuWw4uLgbmWXVSyg'],
+    // ];
+    require 'sections/header.php';
 
-    // head, header, barra superior, iconos sociales
-    require 'section_header.php';
 
-
+    // Slides de portada y modal
     $slides = [
       ['src' => 'bg02.jpg', 'titulo' => 'Video Games Music', 'alt' => 'slide1'],
       ['src' => 'bg01.jpg', 'titulo' => 'HQ Sound Effects', 'alt' => 'slide2'],
       ['src' => 'bg03.jpg', 'titulo' => 'Engine Interactive', 'alt' => 'slide3'],
     ];
+    require 'sections/portada.php';
 
-    // Slides de portada y modal
-    require 'section_portada.php';
-
-
-    $titulo = "2 MEN STUDIO";
-    $subtitulo = "Juan Novella & <br>Alberto Trigueros";
-    $texto = "'As a teenager I found myself composing music for an indie band. I realized I was enjoying it more than anything before. After several years I can say I still feel the same.'<br><br>Juan Novella 'Hust'<br> Valencia, Spain
-    <hr>'I love trying to understand every sound, its texture. Looking for an equilibrium and the coherence in our mixes. I think that a sound that finds his place is a happy sound.'<br><br>Alberto Trigueros<br> Madrid, Spain";
 
     // Bloque Quienes Somos
-    require 'section_quienes_somos.php';
+    $titulo = "2 MEN STUDIO";
+    $subtitulo = "Juan Novella & <br>Alberto Trigueros";
+    $texto = "GROOVEL Innate Composing it’s a company that provides music and sound fx for videogames. Able to offer a finnished product, producing all sound and musical aspects or as a part of a creative process as composers and sound designers.
+    <br><br>In Groovel we understand that in an audiovisual production the most important it’s understanding what does your project needs. We pretend to be a creative mainstay since the begenning of the development, being a part of the team.<br><br>
+    'As a teenager I found myself composing music for an indie band. I realized I was enjoying it more than anything before. After several years I can say I still feel the same.'
+    'I love trying to understand every sound, its texture. Looking for an equilibrium and the coherence in our mixes. I think that a sound that finds his place is a happy sound.'<br><br>Alberto Trigueros &amp; Juan Novella 'Hust'<br>Madrid &amp; Valencia<br>Spain.";
+    require 'sections/quienes_somos.php';
 
 
+    // Bloque Que Hacemos
     $titulo = "What we do";
     $subtitulo = "MUSIC &nbsp;|&nbsp; SOUND EFFECTS &nbsp;|&nbsp; INTERACTIVE &nbsp;|&nbsp; ENGINE INTEGRATION";
     $imagenes = [
@@ -54,11 +57,10 @@
       ['src' => 'interactiveaudio_en.png', 'alt' => 'Interactive Audio', 'texto' => 'INTERACTIVE BEHAVIOUR &nbsp;|&nbsp; UNIQUE USER EXPERIENCE &nbsp;|&nbsp; FMOD & WWISE'],
       ['src' => 'engineintegration_en.png', 'alt' => 'Engine Integration', 'texto' => 'WORK WITH UNITY &nbsp;|&nbsp; MASTER AUDIO &nbsp;|&nbsp; UNREAL ENGINE &nbsp;|&nbsp; INTEGRATION'],
     ];
-
-    // Bloque Que Hacemos
-    require 'section_que_hacemos.php';
+    require 'sections/que_hacemos.php';
 
 
+    // Bloque Tabla Proyectos
     $titulo = "Proyects";
     $titulos_tabla = [
       'Game',
@@ -80,11 +82,10 @@
       ['', 'EdVE', 'Music &amp; Video Production', '<a target="_blank" href="https://www.facebook.com/groups/devsfromspain/">Devsfromspain</a> &amp; <a target="_blank" href="http://www.aevi.org.es/desarrollo-espanol/iniciativas/">AEVI</a>', '<a target="_blank" href="http://www.groovelstudio.com/?page_id=487">Youtube</a>', '2015'],
       ['', 'Kill Blocks', 'Music & Sound Effects', '<a target="_blank" href="http://mobilendo.com/">Mobilendo</a>', '<a target="_blank" href="https://play.google.com/store/apps/details?id=com.mobilendo.killblocks">Android</a> / <a target="_blank" href="https://itunes.apple.com/us/app/kill-blocks/id969491786?mt=8">iOS</a>', '2015']
     ];
-
-    // Bloque Tabla Proyectos
-    require 'section_proyectos.php';
+    require 'sections/proyectos.php';
 
 
+    // Bloque Portfolio
     $titulo = "OUR MUSIC";
     $subtitulo = "Works & Portfolio";
     $abrir_lista = "Listen Playlist";
@@ -95,11 +96,10 @@
       ['url' => 'discs/disc-04.html', 'src' => 'retro.png', 'texto' => 'Retro'],
       ['url' => 'discs/disc-05.html', 'src' => 'folkandethinc.png', 'texto' => 'Folk & Ethnic'],
     ];
-
-    // Bloque Portfolio
-    require 'section_nuestra_musica.php';
+    require 'sections/nuestra_musica.php';
 
 
+    // Bloque contacto, linea final y dependencias js
     $titulo = "Get in touch";
     $subtitulo = "say hello!";
     $nombre = "Your name";
@@ -108,6 +108,4 @@
     $estudio_musica = "Music Studio";
     $buscanos = "Get socialized with us";
     $copy = "All music and works protected under a Creative Commons licence.";
-
-    // Bloque contacto, linea final y dependencias js
-    require 'section_contacto.php';
+    require 'sections/contacto.php';

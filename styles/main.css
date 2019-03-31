@@ -4297,12 +4297,14 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
 
 .bloque-img img {
   margin:0 auto;
-  box-shadow: 0 0 5px #fff;
-  transition: all 0.35s;
+  transition: all 0.3s;
+  box-shadow: 0 0 5px #999;
 }
 
 .bloque-img img:hover {
-  box-shadow: none;
+  box-shadow: 0 0 5px #fff;
+  margin-top: -5px;
+  margin-bottom: 5px;
 }
 
 .s4games {
