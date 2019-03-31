@@ -27,12 +27,12 @@
           <tbody>
             <!-- Creamos la tabla -->
             <?php foreach ($filas_tabla as $i => $fila): ?>
-              <tr class="open-disc" data-url="discs/tabla<?=$i+1?>.php">
-                <td><?=$fila[0]?></td>
-                <td class="hidden-xs"><?=$fila[1]?></td>
-                <td><?=$fila[2]?></td>
-                <td class="hidden-xs hidden-sm"><?=$fila[3]?></td>
-                <td class="hidden-xs"><?=$fila[4]?></td>
+              <tr <?= $fila[0] ? 'class="open-disc" data-url="'.$fila[0].'"' : '' ?>>
+                <td><?=$fila[1]?></td>
+                <td class="hidden-xs"><?=$fila[2]?></td>
+                <td><?=$fila[3]?></td>
+                <td class="hidden-xs hidden-sm"><?=$fila[4]?></td>
+                <td class="hidden-xs"><?=$fila[5]?></td>
               </tr>
             <?php endforeach; ?>
           </tbody>
