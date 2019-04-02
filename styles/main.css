@@ -1128,7 +1128,7 @@ footer ul.menu-footer li a {
 }
 @media (max-width: 768px) {
   .intro {
-    height: calc(100% - 200px);
+    height: calc(100% - 199px);
   }
   .intro.full-height {
     height: 100%;
