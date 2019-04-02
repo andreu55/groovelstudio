@@ -1118,17 +1118,23 @@ footer ul.menu-footer li a {
   background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
-  height: 100%;
-  min-height: 540px;
+  height: calc(100% - 100px);
+  min-height: 400px;
 }
-@media (min-width: 768px) {
+@media (max-width: 992px) {
   .intro {
-    height: calc(100% - 100px);
+    height: calc(100% - 150px);
+  }
+}
+@media (max-width: 768px) {
+  .intro {
+    height: calc(100% - 200px);
   }
   .intro.full-height {
     height: 100%;
   }
 }
+
 .intro .container,
 .intro .row,
 .intro .col-md-12,
@@ -1221,7 +1227,7 @@ footer ul.menu-footer li a {
   color: #eaeaea;
   letter-spacing: initial; /* 5px; */
   font-weight: 500;
-  padding: 0 25px;
+  padding: 0 50px;
   vertical-align: middle;
 }
 @media (min-width: 992px) {
@@ -1269,7 +1275,7 @@ footer ul.menu-footer li a {
 }
 
 #owl-main-text {
-  height: 150px;
+  height: 240px;
 }
 
 /* Si es mas grande que un movil */
@@ -2144,7 +2150,7 @@ input.btn.rounded {
 .player.horizontal .playlist {
   position: relative;
   top: 59px;
-  left: 13px;
+  left: 41px;
   font-size: 12px;
   line-height: normal;
 }
@@ -4283,8 +4289,10 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
   transform: rotate(0deg);
 }
 
-.table th {
-  font-size: 24px;
+@media (min-width: 768px) {
+  .table th {
+    font-size: 24px;
+  }
 }
 
 #anchor02 {

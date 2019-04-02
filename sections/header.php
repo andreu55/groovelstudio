@@ -1,3 +1,12 @@
+<?php
+  // print_r($_SERVER); exit();
+  // Simulamos la funcion url()
+  function url($url = '') {
+    $url = ($url && $url[0] != '/') ? "/$url" : $url; // Si el primer carácter no es una "/" se la añadimos
+    return $_SERVER['REQUEST_SCHEME'] . "://" . $_SERVER['SERVER_NAME'] . substr($_SERVER['REQUEST_URI'], 0, strrpos($_SERVER['REQUEST_URI'], '/')) . $url;
+  }
+?>
+
 <!DOCTYPE html>
 
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -8,11 +17,31 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Groovel Studio. Sound 4 Games</title>
+
+  <!-- Primary Meta Tags -->
+  <title><?= $title ?></title>
+  <meta name="title" content="<?= $title ?>">
   <meta name="description" content="<?= $description ?>">
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="<?= url() ?>">
+  <meta property="og:title" content="<?= $title ?>">
+  <meta property="og:description" content="<?= $description ?>">
+  <meta property="og:image" content="<?= url('favicon.png') ?>">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="<?= url() ?>">
+  <meta property="twitter:title" content="<?= $title ?>">
+  <meta property="twitter:description" content="<?= $description ?>">
+  <meta property="twitter:image" content="<?= url('favicon.png') ?>">
+
+  <!-- <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320"> -->
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+
+  <meta name="robots" content="index, nofollow"/>
 
   <link rel="icon" type="image/png" href="favicon.png" sizes="196x196">
 

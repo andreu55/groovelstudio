@@ -16,7 +16,7 @@
     <div class="row">
 
       <?php foreach ($imagenes as $img): ?>
-        <div class="bloque-img col-xs-6 col-sm-6 col-lg-3">
+        <div class="bloque-img col-xs-6 col-lg-3">
           <img class="img-responsive" src="images/whatwedo/<?=$img['src']?>" alt="<?=$img['alt']?>">
           <p class="texto text-center"><?=$img['texto']?></p>
         </div>

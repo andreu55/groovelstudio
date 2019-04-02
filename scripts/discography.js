@@ -30,7 +30,7 @@ function close(){
     $(".close-btn").click(function() {
         $(".project-window").slideUp("slow");
         $(".project-content").fadeOut("slow");
-        $("html, body").animate({ scrollTop: $('#discography').offset().top }, 1000);
+        $("html, body").animate({ scrollTop: $('#discography').offset().top - (50) }, 1000);
         // $("html, body").animate({ scrollTop: $('#discography').offset().top -(50) }, 1000);
         opened=false;
     });

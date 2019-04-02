@@ -4,6 +4,10 @@
     <div class="row">
       <div class="text-center">
         <div class="voffset70"></div>
+        <div class="separator-icon">
+          <i class="fa fa-fw fa-user"></i>
+        </div>
+        <div class="voffset30"></div>
         <p class="pretitle"><?= $titulo ?></p>
         <h2 class="title"><?= $subtitulo ?></h2>
         <div class="voffset80"></div>

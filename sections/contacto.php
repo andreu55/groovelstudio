@@ -34,7 +34,7 @@
           </div>
 
           <!-- <div class="formSent"><p><strong>Your Message Has Been Sent!</strong> Thank you for contacting us.</p></div> -->
-          <input type="submit" value="Submit" class="btn rounded">
+          <input type="submit" value="<?= $boton_enviar ?>" class="btn rounded">
           <div class="voffset80"></div>
         </form>
       </div>

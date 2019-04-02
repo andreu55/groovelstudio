@@ -1,10 +1,11 @@
 
   <?php
 
-    require 'database.php';
+    // require 'database.php';
 
     // head, header, barra superior, iconos sociales
     $lang = 'en';
+    $title = 'Groovel Studio. Sound 4 Games';
     $description = 'We compose music and design sound for videogames';
     $barra = ['Home',
       'About',
@@ -19,21 +20,21 @@
       'alt' => 'ESP'
     ];
     // Ahora cargan en database.php
-    // $social_links = [
-    //   ['nombre' => 'SoundCloud', 'icon' => 'soundcloud', 'url' => 'https://soundcloud.com/groovel-studio'],
-    //   ['nombre' => 'Twitter', 'icon' => 'twitter', 'url' => 'https://twitter.com/GroovelStudio'],
-    //   ['nombre' => 'Facebook', 'icon' => 'facebook', 'url' => 'https://www.facebook.com/GroovelStudio'],
-    //   ['nombre' => 'LinkedIn', 'icon' => 'linkedin', 'url' => 'https://www.linkedin.com/in/groovel-studio-a363bbb6/'],
-    //   ['nombre' => 'YouTube', 'icon' => 'youtube', 'url' => 'https://www.youtube.com/channel/UCBZTTVynuWw4uLgbmWXVSyg'],
-    // ];
+    $social_links = [
+      ['nombre' => 'SoundCloud', 'icon' => 'soundcloud', 'url' => 'https://soundcloud.com/groovel-studio'],
+      ['nombre' => 'Twitter', 'icon' => 'twitter', 'url' => 'https://twitter.com/GroovelStudio'],
+      ['nombre' => 'Facebook', 'icon' => 'facebook', 'url' => 'https://www.facebook.com/GroovelStudio'],
+      ['nombre' => 'LinkedIn', 'icon' => 'linkedin', 'url' => 'https://www.linkedin.com/in/groovel-studio-a363bbb6/'],
+      ['nombre' => 'YouTube', 'icon' => 'youtube', 'url' => 'https://www.youtube.com/channel/UCBZTTVynuWw4uLgbmWXVSyg'],
+    ];
     require 'sections/header.php';
 
 
     // Slides de portada y modal
     $slides = [
-      ['src' => 'bg02.jpg', 'titulo' => 'Video Games Music', 'alt' => 'slide1'],
-      ['src' => 'bg01.jpg', 'titulo' => 'HQ Sound Effects', 'alt' => 'slide2'],
-      ['src' => 'bg03.jpg', 'titulo' => 'Engine Interactive', 'alt' => 'slide3'],
+      ['src' => 'bg02.jpg', 'titulo' => 'Video Games Music', 'boton' => 'Reach out', 'alt' => 'slide1'],
+      ['src' => 'bg01.jpg', 'titulo' => 'HQ Sound Effects', 'boton' => 'Reach out', 'alt' => 'slide2'],
+      ['src' => 'bg03.jpg', 'titulo' => 'Engine Interactive', 'boton' => 'Reach out', 'alt' => 'slide3'],
     ];
     require 'sections/portada.php';
 
@@ -73,7 +74,7 @@
       ['', 'Grefusa Heroes', 'Music & Sound Effects', 'No Spoon Lab', 'Android / iOS', '2019'],
       ['', 'My Granny Lala and Me', 'Sound Effects', 'Beatriz Olcina', 'PC', '2019'],
       ['', 'Crisis Serena (WIP)', 'Music & Sound Effects', 'Pixel Powa', 'PC', '2018'],
-      ['', 'River (WIP)', 'Music & Sound Effects', 'Studio Istmo', 'PC', '2017'],
+      // ['', 'River (WIP)', 'Music & Sound Effects', 'Studio Istmo', 'PC', '2017'],
       ['', 'Robo Ball', 'Music', '<a target="_blank" href="https://joanmartinezclari.wordpress.com/">Joan Martinez Clari</a>', '<a target="_blank" href="https://play.google.com/store/apps/details?id=com.caparra.games.ball">Android</a> / iOS', '2016'],
       ['', 'GenPoc', 'Music, Sound Effects &amp; Integration', '<a target="_blank" href="http://www.genpoc.com/">Drassana Games</a>', 'PC', '2016'],
       ['', '<a target="_blank" href="http://www.bluefxgames.com/App/JoeJump">Joe Jump</a>', 'Music', '<a target="_blank" href="http://www.bluefxgames.com/">BlueFX Studio</a>', '<a target="_blank" href="https://play.google.com/store/apps/details?id=com.bluefxgames.joejump">Android</a> / iOS', '2016'],
@@ -105,6 +106,7 @@
     $nombre = "Your name";
     $email = "Your email";
     $mensaje = "Your message";
+    $boton_enviar = "Submit";
     $estudio_musica = "Music Studio";
     $buscanos = "Get socialized with us";
     $copy = "All music and works protected under a Creative Commons licence.";
