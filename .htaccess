@@ -1,5 +1,5 @@
 Options +Indexes
 
 RewriteEngine On
-# Redirect /index.php http://groovel.cuentonomo.com [R=301,L]
-# Redirect /index_en.php http://groovel.cuentonomo.com/en [R=301,L]
+Redirect /index.php http://groovel.cuentonomo.com [R=301,L]
+Redirect /index_en.php http://groovel.cuentonomo.com/en [R=301,L]
