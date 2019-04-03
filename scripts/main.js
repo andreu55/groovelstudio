@@ -7,10 +7,10 @@ $(window).load(function() {
 
 
 
-/*---------------------------------------------- 
+/*----------------------------------------------
             P L A Y E R   I N T R O
 ------------------------------------------------*/
-$(function() { 
+$(function() {
 
   function loadAudio() {
     // Setup the player to autoplay the next track
@@ -42,7 +42,7 @@ $(function() {
         e.preventDefault();
         var next = $('ol.playlist li.playing').next();
         if (!next.length) next = $('ol.playlist li').first();
-        next.click();  
+        next.click();
     });
     $('.nextprev .prev').click(function(e) {
         var prev = $('ol.playlist li.playing').prev();
@@ -122,7 +122,7 @@ if ($('#DateCountdown').length>0 ) {
 
 
 $(document).ready(function(){
-/*---------------------------------------------- 
+/*----------------------------------------------
             I N T R O  S L I D E R
 ------------------------------------------------*/
   $('#slides').superslides({
@@ -148,10 +148,10 @@ $(document).ready(function(){
     slidertext();
   };
 
-  /*---------------------------------------------- 
-                   T W I T T E R 
+  /*----------------------------------------------
+                   T W I T T E R
   ------------------------------------------------*/
-  function twitterfeed() {  
+  function twitterfeed() {
     var config5 = {
       "id": '702067549920485376',
       "domId": 'twitter-feed',
@@ -191,14 +191,14 @@ $(document).ready(function(){
     twitterfeed();
   };
 
-  /*---------------------------------------------- 
+  /*----------------------------------------------
               S L I D E R  D A T E S
   ------------------------------------------------*/
   var $carouselDates = $('.jcarouselDates').flickity({
-    cellAlign: 'left', 
-    wrapAround: true, 
-    contain: true, 
-    prevNextButtons: false, 
+    cellAlign: 'left',
+    wrapAround: true,
+    contain: true,
+    prevNextButtons: false,
     pageDots: false,
     draggable: false
   });
@@ -213,7 +213,7 @@ $(document).ready(function(){
 
 
 
-  /*---------------------------------------------- 
+  /*----------------------------------------------
                 L I G H T B O X
   ------------------------------------------------*/
   $('.swipebox').swipebox();
@@ -236,23 +236,29 @@ $(document).ready(function(){
             jQuery(".playerVideo").pauseYTP();
           } else {
             jQuery('audio').each(function (i,e) {
-              this.pause(); 
+              this.pause();
             });
             jQuery(".playerVideo").playYTP();
           }
         e.preventDefault();
       });
-        
+
     }
 
-
+    // Esto para el video del modal si está en marcha
+    $('.modal-video').on('hide.bs.modal', function(e) {
+      var $if = $(e.delegateTarget).find('iframe');
+      var src = $if.attr("src");
+      $if.attr("src", '/empty.html');
+      $if.attr("src", src);
+    });
 
 
 });
 
 
-  
-/*---------------------------------------------- 
+
+/*----------------------------------------------
                  I S O T O P E
 ------------------------------------------------*/
 $(window).load(function(){
@@ -298,16 +304,16 @@ $(window).load(function(){
 
 
 
-/*---------------------------------------------- 
+/*----------------------------------------------
                  P A R A L L A X
 ------------------------------------------------*/
-if(jQuery().parallax) { 
+if(jQuery().parallax) {
     jQuery('.parallax-section').parallax();
 }
 
 
 
-/*---------------------------------------------- 
+/*----------------------------------------------
             M E N U   A N C H O R S
 ------------------------------------------------*/
   $('a[href*=#]').click(function() {
@@ -320,7 +326,7 @@ if(jQuery().parallax) {
 
         // collapse nav
         $('.navbar-collapse.in').removeClass('in').addClass('collapse');
-        
+
         return false;
       }
     }
@@ -328,10 +334,10 @@ if(jQuery().parallax) {
 
 
 
-/*---------------------------------------------- 
+/*----------------------------------------------
             M E N U   F I X E D
 ------------------------------------------------*/
-$(function() { 
+$(function() {
   $(window).bind("scroll", function(){
       if ($(window).scrollTop() >= 85) {
           $('#jHeader').addClass('overflow');
