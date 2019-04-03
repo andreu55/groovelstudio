@@ -56,9 +56,11 @@
           </ul>
           <h4 class="title small centrado-en-movil"><?= $buscanos ?></h4>
           <div class="social-links">
-            <?php foreach ($social_links as $s): ?>
-              <li><a href="<?= $s['url'] ?>"><i class="fa fa-fw fa-<?= $s['icon'] ?>"></i></a></li>
-            <?php endforeach; ?>
+            <ul style="padding:0">
+              <?php foreach ($social_links as $s): ?>
+                <li><a href="<?= $s['url'] ?>"><i class="fa fa-fw fa-<?= $s['icon'] ?>"></i></a></li>
+              <?php endforeach; ?>
+            </ul>
           </div>
         </div>
       </div>

@@ -34,8 +34,9 @@
 
   <!-- <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320"> -->
-  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
-
+  <!-- <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0"> -->
+  <!-- , user-scalable=no -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="robots" content="index, nofollow"/>
 
   <link rel="icon" type="image/png" href="favicon.png" sizes="196x196">
@@ -87,7 +88,7 @@
 
 <!-- HEADER -->
 <header id="jHeader">
-  <nav class="navbar navbar-default" role="navigation">
+  <nav class="navbar navbar-default">
 
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">

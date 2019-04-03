@@ -36,9 +36,11 @@
 
     </div>
 
-    <div class="modal fade modal-video" tabindex="-1" role="dialog" aria-labelledby="modal-videoLabel">
-      <div class="modal-dialog modal-lg">
-        <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/GiQ5pBHTFRk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="modal fade modal-video" tabindex="-1" role="dialog">
+      <!-- modal-lg -->
+      <div class="modal-dialog">
+        <!-- width="100%" height="100%" -->
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/GiQ5pBHTFRk" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
 
