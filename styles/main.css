@@ -4220,13 +4220,9 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
     width: 60%;
     height: 65%;
   }
-
   .flickity-page-dots,
   #anchor02 .flickity-prev-next-button {
     display: none;
-  }
-  #anchor04 .flickity-prev-next-button {
-    top: 37%
   }
   #anchor04 .flickity-prev-next-button.previous {
     left: 5px;
@@ -4234,10 +4230,12 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
   #anchor04 .flickity-prev-next-button.next {
     right: 5px;
   }
-
-  #anchor04 .carousel-discography {
-    padding: 0 20px;
-  }
+}
+#anchor04 .flickity-prev-next-button {
+  top: 37%
+}
+#anchor04 .carousel-discography {
+  padding: 0 20px;
 }
 
 .social-flotante {
