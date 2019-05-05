@@ -1,17 +1,57 @@
 <!-- WORKS -->
 <section class="section featured-artists" id="anchor03">
   <div class="container">
-    <!-- <div class="row"> -->
-      <div class="text-center">
-        <div class="voffset70"></div>
-        <div class="separator-icon">
-          <i class="fa fa-fw fa-book"></i>
-        </div>
-        <div class="voffset20"></div>
-        <h2 class="title"><?= $titulo ?></h2>
-        <div class="voffset80"></div>
+
+    <div class="text-center">
+      <div class="voffset70"></div>
+      <div class="separator-icon">
+        <i class="fa fa-fw fa-book"></i>
       </div>
-    <!-- </div> -->
+      <div class="voffset20"></div>
+      <h2 class="title"><?= $titulo ?></h2>
+      <div class="voffset40"></div>
+    </div>
+
+    <!-- Destacados -->
+    <div class="row">
+      <!-- <div class="col-md-12"> -->
+        <?php foreach ($destacados as $destacado): ?>
+
+          <div class="bloque-img col-sm-6 col-lg-3">
+            <div class="featured-artist">
+              <img class="img-responsive bloque-img-contenido" src="images/whatwedo/<?=$destacado['src']?>" alt="<?=$destacado['alt']?>">
+              <div class="rollover">
+                <ul class="social">
+                  <li><a href="<?=$destacado['link']?>" target="_blank"><i class="fa fa-fw fa-external-link"></i></a></li>
+                </ul>
+                <div class="text">
+                  <h6 class="title-artist">
+                    <small class="title-small">
+                      <?=$destacado['ano']?>
+                    </small>
+                    <br>
+                    <?=$destacado['titulo']?>
+                  </h6>
+                  <!-- class="hidden-xs" -->
+                  <p>
+                    <em><?=$destacado['desarrollador']?></em>
+                  </p>
+                  <p>
+                    <?=$destacado['detalles']?>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <?php endforeach; ?>
+
+      <!-- </div> -->
+    </div>
+
+    <div class="voffset50"></div>
+
+    <!-- Tabla -->
     <div class="row">
       <div class="col-xs-12">
         <table class="table table-striped table-hover">

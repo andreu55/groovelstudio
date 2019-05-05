@@ -73,9 +73,44 @@
     'PLATAFORMA',
     'AÑO',
   ];
+  $destacados = [
+    [
+      'src' => 'originalmusic.png',
+      'alt' => 'Composición de Música',
+      'link' => 'https://google.es',
+      'titulo' => 'GREFUSA HEROES',
+      'desarrollador' => 'Play &amp Go',
+      'detalles' => 'Música y Efectos de Sonido',
+      'ano' => '2019',
+    ],[
+      'src' => 'sounddesign.png',
+      'alt' => 'Efectos de Sonido',
+      'link' => 'https://google.es',
+      'titulo' => 'MY GRANNY LALA &amp; ME',
+      'desarrollador' => 'Play &amp Go',
+      'detalles' => 'Efectos de Sonido',
+      'ano' => '2018',
+    ],[
+      'src' => 'interactiveaudio.png',
+      'alt' => 'Diseño sonoro Adaptativo',
+      'link' => 'https://google.es',
+      'titulo' => 'CRISIS SERENA (WIP)',
+      'desarrollador' => 'Play &amp Go',
+      'detalles' => 'Música y Efectos de Sonido',
+      'ano' => '2017',
+    ],[
+      'src' => 'engineintegration.png',
+      'alt' => 'Integración en el Motor Gráfico',
+      'link' => 'https://google.es',
+      'titulo' => 'GREFUSA HEROES',
+      'desarrollador' => 'Play &amp Go',
+      'detalles' => 'INTEGRACIÓN EN UNITY Y UNREAL ENGINE &nbsp;|&nbsp; PLUG-IN MASTER AUDIO &nbsp;|&nbsp; AUDIO MANAGER',
+      'ano' => '2016',
+    ],
+  ];
   $filas_tabla = [
     ['', 'Grefusa Heroes', 'Música y Efectos de Sonido', 'Play &amp; Go', 'Android / iOS', '2019'],
-    ['', 'My Granny Lala and Me', 'Sound Effects', 'Beatriz Olcina', 'PC', '2019'],
+    ['', 'My Granny Lala and Me', 'Efectos de Sonido', 'Beatriz Olcina', 'PC', '2019'],
     ['', 'Crisis Serena (WIP)', 'Música y Efectos de Sonido', 'Pixel Powa', 'PC', '2018'],
     // ['', 'River (WIP)', 'Música y Efectos de Sonido', 'Studio Istmo', 'PC', '2017'],
     ['', 'Robo Ball', 'Música', '<a target="_blank" href="https://joanmartinezclari.wordpress.com/">Joan Martinez Clari</a>', '<a target="_blank" href="https://play.google.com/store/apps/details?id=com.caparra.games.ball">Android</a> / iOS', '2016'],
