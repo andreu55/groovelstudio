@@ -17,7 +17,7 @@
 
       <?php foreach ($imagenes as $img): ?>
         <div class="bloque-img col-xs-6 col-lg-3">
-          <img class="img-responsive bloque-img-contenido" src="images/whatwedo/<?=$img['src']?>" alt="<?=$img['alt']?>">
+          <img class="img-responsive bloque-img-contenido" src="<?=$img['src']?>" alt="<?=$img['alt']?>">
           <p class="texto text-center"><?=$img['texto']?></p>
         </div>
       <?php endforeach; ?>

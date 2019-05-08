@@ -32,9 +32,9 @@
 
     // Slides de portada y modal
     $slides = [
-      ['src' => 'bg02.jpg', 'titulo' => 'Video Games Music', 'boton' => 'Reach out', 'alt' => 'slide1'],
-      ['src' => 'bg01.jpg', 'titulo' => 'HQ Sound Effects', 'boton' => 'Reach out', 'alt' => 'slide2'],
-      ['src' => 'bg03.jpg', 'titulo' => 'Engine Interactive', 'boton' => 'Reach out', 'alt' => 'slide3'],
+      ['src' => 'images/bg02.jpg', 'titulo' => 'Video Games Music', 'boton' => 'Reach out', 'alt' => 'slide1'],
+      ['src' => 'images/bg01.jpg', 'titulo' => 'HQ Sound Effects', 'boton' => 'Reach out', 'alt' => 'slide2'],
+      ['src' => 'images/bg03.jpg', 'titulo' => 'Engine Interactive', 'boton' => 'Reach out', 'alt' => 'slide3'],
     ];
     require 'sections/portada.php';
 
@@ -53,10 +53,10 @@
     $titulo = "What we do";
     $subtitulo = "MUSIC &nbsp;|&nbsp; SOUND EFFECTS &nbsp;|&nbsp; INTERACTIVE &nbsp;|&nbsp; ENGINE INTEGRATION";
     $imagenes = [
-      ['src' => 'originalmusic_en.png', 'alt' => 'Original Music', 'texto' => 'ORCHESTRA &nbsp;|&nbsp; POP &nbsp;|&nbsp; ROCK &nbsp;|&nbsp; ELECTRONIC &nbsp;|&nbsp; OTHERS'],
-      ['src' => 'sounddesign_en.png', 'alt' => 'Sound Design', 'texto' => 'HIGH QUALITY SOUND DESIGN &nbsp;|&nbsp;  &nbsp;|&nbsp; RECORDING FOLEY &nbsp;|&nbsp; LIBRARY'],
-      ['src' => 'interactiveaudio_en.png', 'alt' => 'Interactive Audio', 'texto' => 'INTERACTIVE BEHAVIOUR &nbsp;|&nbsp; UNIQUE USER EXPERIENCE &nbsp;|&nbsp; FMOD & WWISE'],
-      ['src' => 'engineintegration_en.png', 'alt' => 'Engine Integration', 'texto' => 'WORK WITH UNITY &nbsp;|&nbsp; MASTER AUDIO &nbsp;|&nbsp; UNREAL ENGINE &nbsp;|&nbsp; INTEGRATION'],
+      ['src' => 'images/whatwedo/originalmusic_en.png', 'alt' => 'Original Music', 'texto' => 'ORCHESTRA &nbsp;|&nbsp; POP &nbsp;|&nbsp; ROCK &nbsp;|&nbsp; ELECTRONIC &nbsp;|&nbsp; OTHERS'],
+      ['src' => 'images/whatwedo/sounddesign_en.png', 'alt' => 'Sound Design', 'texto' => 'HIGH QUALITY SOUND DESIGN &nbsp;|&nbsp;  &nbsp;|&nbsp; RECORDING FOLEY &nbsp;|&nbsp; LIBRARY'],
+      ['src' => 'images/whatwedo/interactiveaudio_en.png', 'alt' => 'Interactive Audio', 'texto' => 'INTERACTIVE BEHAVIOUR &nbsp;|&nbsp; UNIQUE USER EXPERIENCE &nbsp;|&nbsp; FMOD & WWISE'],
+      ['src' => 'images/whatwedo/engineintegration_en.png', 'alt' => 'Engine Integration', 'texto' => 'WORK WITH UNITY &nbsp;|&nbsp; MASTER AUDIO &nbsp;|&nbsp; UNREAL ENGINE &nbsp;|&nbsp; INTEGRATION'],
     ];
     require 'sections/que_hacemos.php';
 
@@ -69,6 +69,41 @@
       'Developer',
       'Platform',
       'Year',
+    ];
+    $destacados = [
+      [
+        'src' => 'images/demo/discography/disco-1.jpg',
+        'alt' => 'Composición de Música',
+        'link' => 'https://google.es',
+        'titulo' => 'GREFUSA HEROES',
+        'desarrollador' => 'Play &amp Go',
+        'detalles' => 'Música y Efectos de Sonido',
+        'ano' => '2019',
+      ],[
+        'src' => 'images/demo/discography/disco-1.jpg',
+        'alt' => 'Efectos de Sonido',
+        'link' => 'https://google.es',
+        'titulo' => 'MY GRANNY LALA &amp; ME',
+        'desarrollador' => 'Play &amp Go',
+        'detalles' => 'Efectos de Sonido',
+        'ano' => '2018',
+      ],[
+        'src' => 'images/demo/discography/disco-1.jpg',
+        'alt' => 'Diseño sonoro Adaptativo',
+        'link' => 'https://google.es',
+        'titulo' => 'CRISIS SERENA (WIP)',
+        'desarrollador' => 'Play &amp Go',
+        'detalles' => 'Música y Efectos de Sonido',
+        'ano' => '2017',
+      ],[
+        'src' => 'images/demo/discography/disco-1.jpg',
+        'alt' => 'Integración en el Motor Gráfico',
+        'link' => 'https://google.es',
+        'titulo' => 'GREFUSA HEROES',
+        'desarrollador' => 'Play &amp Go',
+        'detalles' => 'INTEGRACIÓN EN UNITY Y UNREAL ENGINE &nbsp;|&nbsp; PLUG-IN MASTER AUDIO &nbsp;|&nbsp; AUDIO MANAGER',
+        'ano' => '2016',
+      ],
     ];
     $filas_tabla = [
       ['', 'Grefusa Heroes', 'Music & Sound Effects', 'No Spoon Lab', 'Android / iOS', '2019'],

@@ -33,9 +33,9 @@
 
   // Slides de portada y modal
   $slides = [
-    ['src' => 'bg01.jpg', 'titulo' => 'Composición de Música', 'boton' => 'Contáctanos', 'alt' => 'slide1'],
-    ['src' => 'bg02.jpg', 'titulo' => 'Diseño de sonido', 'boton' => 'Contáctanos', 'alt' => 'slide2'],
-    ['src' => 'bg03.jpg', 'titulo' => 'Integración en Motor Gráfico', 'boton' => 'Contáctanos', 'alt' => 'slide3'],
+    ['src' => 'images/bg01.jpg', 'titulo' => 'Composición de Música', 'boton' => 'Contáctanos', 'alt' => 'slide1'],
+    ['src' => 'images/bg02.jpg', 'titulo' => 'Diseño de sonido', 'boton' => 'Contáctanos', 'alt' => 'slide2'],
+    ['src' => 'images/bg03.jpg', 'titulo' => 'Integración en Motor Gráfico', 'boton' => 'Contáctanos', 'alt' => 'slide3'],
   ];
   require 'sections/portada.php';
 
@@ -56,10 +56,10 @@
   $titulo = "QUÉ HACEMOS";
   $subtitulo = "MÚSICA &nbsp;|&nbsp; EFECTOS DE SONIDO &nbsp;|&nbsp; AUDIO INTERACTIVO &nbsp;|&nbsp; INTEGRACIÓN EN MOTOR";
   $imagenes = [
-    ['src' => 'originalmusic.png', 'alt' => 'Composición de Música', 'texto' => 'ORQUESTAL &nbsp;|&nbsp; POP &nbsp;|&nbsp; ROCK &nbsp;|&nbsp; ELECTRÓNICA &nbsp;|&nbsp; OTROS'],
-    ['src' => 'sounddesign.png', 'alt' => 'Efectos de Sonido', 'texto' => 'DISEÑO DE SONIDO HQ &nbsp;|&nbsp; GRABACIÓN &nbsp;|&nbsp; FOLEY &nbsp;|&nbsp; LIBRERIAS'],
-    ['src' => 'interactiveaudio.png', 'alt' => 'Diseño sonoro Adaptativo', 'texto' => 'COMPORTAMIENTO INTERACTIVO &nbsp;|&nbsp; EXPERIENCIA DE USUARIO ÚNICA &nbsp;|&nbsp; WWISE/FMOD'],
-    ['src' => 'engineintegration.png', 'alt' => 'Integración en el Motor Gráfico', 'texto' => 'INTEGRACIÓN EN UNITY Y UNREAL ENGINE &nbsp;|&nbsp; PLUG-IN MASTER AUDIO &nbsp;|&nbsp; AUDIO MANAGER'],
+    ['src' => 'images/whatwedo/originalmusic.png', 'alt' => 'Composición de Música', 'texto' => 'ORQUESTAL &nbsp;|&nbsp; POP &nbsp;|&nbsp; ROCK &nbsp;|&nbsp; ELECTRÓNICA &nbsp;|&nbsp; OTROS'],
+    ['src' => 'images/whatwedo/sounddesign.png', 'alt' => 'Efectos de Sonido', 'texto' => 'DISEÑO DE SONIDO HQ &nbsp;|&nbsp; GRABACIÓN &nbsp;|&nbsp; FOLEY &nbsp;|&nbsp; LIBRERIAS'],
+    ['src' => 'images/whatwedo/interactiveaudio.png', 'alt' => 'Diseño sonoro Adaptativo', 'texto' => 'COMPORTAMIENTO INTERACTIVO &nbsp;|&nbsp; EXPERIENCIA DE USUARIO ÚNICA &nbsp;|&nbsp; WWISE/FMOD'],
+    ['src' => 'images/whatwedo/engineintegration.png', 'alt' => 'Integración en el Motor Gráfico', 'texto' => 'INTEGRACIÓN EN UNITY Y UNREAL ENGINE &nbsp;|&nbsp; PLUG-IN MASTER AUDIO &nbsp;|&nbsp; AUDIO MANAGER'],
   ];
   require 'sections/que_hacemos.php';
 
@@ -75,7 +75,7 @@
   ];
   $destacados = [
     [
-      'src' => 'originalmusic.png',
+      'src' => 'images/demo/discography/disco-1.jpg',
       'alt' => 'Composición de Música',
       'link' => 'https://google.es',
       'titulo' => 'GREFUSA HEROES',
@@ -83,7 +83,7 @@
       'detalles' => 'Música y Efectos de Sonido',
       'ano' => '2019',
     ],[
-      'src' => 'sounddesign.png',
+      'src' => 'images/demo/discography/disco-1.jpg',
       'alt' => 'Efectos de Sonido',
       'link' => 'https://google.es',
       'titulo' => 'MY GRANNY LALA &amp; ME',
@@ -91,7 +91,7 @@
       'detalles' => 'Efectos de Sonido',
       'ano' => '2018',
     ],[
-      'src' => 'interactiveaudio.png',
+      'src' => 'images/demo/discography/disco-1.jpg',
       'alt' => 'Diseño sonoro Adaptativo',
       'link' => 'https://google.es',
       'titulo' => 'CRISIS SERENA (WIP)',
@@ -99,7 +99,7 @@
       'detalles' => 'Música y Efectos de Sonido',
       'ano' => '2017',
     ],[
-      'src' => 'engineintegration.png',
+      'src' => 'images/demo/discography/disco-1.jpg',
       'alt' => 'Integración en el Motor Gráfico',
       'link' => 'https://google.es',
       'titulo' => 'GREFUSA HEROES',

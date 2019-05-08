@@ -8,7 +8,7 @@
             <div class="overlay"></div>
             <div class="slides-container">
               <?php foreach ($slides as $slide): ?>
-                <img src="images/<?= $slide['src'] ?>" alt="<?= $slide['alt'] ?>">
+                <img src="<?= $slide['src'] ?>" alt="<?= $slide['alt'] ?>">
               <?php endforeach; ?>
             </div>
           </div>

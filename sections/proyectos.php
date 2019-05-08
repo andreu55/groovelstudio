@@ -19,7 +19,7 @@
 
           <div class="bloque-img col-sm-6 col-lg-3">
             <div class="featured-artist">
-              <img class="img-responsive bloque-img-contenido" src="images/whatwedo/<?=$destacado['src']?>" alt="<?=$destacado['alt']?>">
+              <img class="img-responsive bloque-img-contenido" src="<?=$destacado['src']?>" alt="<?=$destacado['alt']?>">
               <div class="rollover">
                 <ul class="social">
                   <li><a href="<?=$destacado['link']?>" target="_blank"><i class="fa fa-fw fa-external-link"></i></a></li>
