@@ -67,13 +67,12 @@
           <tbody>
             <!-- Creamos la tabla -->
             <?php foreach ($filas_tabla as $i => $fila): ?>
-              <?php //= $fila[0] ? 'class="open-disc" data-url="'.$fila[0].'"' : '' ESTO SE PUEDE BORRAR ?>
               <tr>
-                <td><?=$fila[1]?></td>
-                <td class="hidden-xs"><?=$fila[2]?></td>
-                <td><?=$fila[3]?></td>
-                <td class="hidden-xs hidden-sm"><?=$fila[4]?></td>
-                <td><?=$fila[5]?></td>
+                <td><?=$fila[0]?></td>
+                <td class="hidden-xs"><?=$fila[1]?></td>
+                <td><?=$fila[2]?></td>
+                <td class="hidden-xs hidden-sm"><?=$fila[3]?></td>
+                <td><?=$fila[4]?></td>
               </tr>
             <?php endforeach; ?>
           </tbody>

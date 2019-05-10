@@ -56,10 +56,23 @@
   $titulo = "QUÉ HACEMOS";
   $subtitulo = "MÚSICA &nbsp;|&nbsp; EFECTOS DE SONIDO &nbsp;|&nbsp; AUDIO INTERACTIVO &nbsp;|&nbsp; INTEGRACIÓN EN MOTOR";
   $imagenes = [
-    ['src' => 'images/whatwedo/originalmusic.png', 'alt' => 'Composición de Música', 'texto' => 'ORQUESTAL &nbsp;|&nbsp; POP &nbsp;|&nbsp; ROCK &nbsp;|&nbsp; ELECTRÓNICA &nbsp;|&nbsp; OTROS'],
-    ['src' => 'images/whatwedo/sounddesign.png', 'alt' => 'Efectos de Sonido', 'texto' => 'DISEÑO DE SONIDO HQ &nbsp;|&nbsp; GRABACIÓN &nbsp;|&nbsp; FOLEY &nbsp;|&nbsp; LIBRERIAS'],
-    ['src' => 'images/whatwedo/interactiveaudio.png', 'alt' => 'Diseño sonoro Adaptativo', 'texto' => 'COMPORTAMIENTO INTERACTIVO &nbsp;|&nbsp; EXPERIENCIA DE USUARIO ÚNICA &nbsp;|&nbsp; WWISE/FMOD'],
-    ['src' => 'images/whatwedo/engineintegration.png', 'alt' => 'Integración en el Motor Gráfico', 'texto' => 'INTEGRACIÓN EN UNITY Y UNREAL ENGINE &nbsp;|&nbsp; PLUG-IN MASTER AUDIO &nbsp;|&nbsp; AUDIO MANAGER'],
+    [
+      'src' => 'images/whatwedo/originalmusic.png',
+      'alt' => 'Composición de Música',
+      'texto' => 'ORQUESTAL &nbsp;|&nbsp; POP &nbsp;|&nbsp; ROCK &nbsp;|&nbsp; ELECTRÓNICA &nbsp;|&nbsp; OTROS'
+    ],[
+      'src' => 'images/whatwedo/sounddesign.png',
+      'alt' => 'Efectos de Sonido',
+      'texto' => 'DISEÑO DE SONIDO HQ &nbsp;|&nbsp; GRABACIÓN &nbsp;|&nbsp; FOLEY &nbsp;|&nbsp; LIBRERIAS'
+    ],[
+      'src' => 'images/whatwedo/interactiveaudio.png',
+      'alt' => 'Diseño sonoro Adaptativo',
+      'texto' => 'COMPORTAMIENTO INTERACTIVO &nbsp;|&nbsp; EXPERIENCIA DE USUARIO ÚNICA &nbsp;|&nbsp; WWISE/FMOD'
+    ],[
+      'src' => 'images/whatwedo/engineintegration.png',
+      'alt' => 'Integración en el Motor Gráfico',
+      'texto' => 'INTEGRACIÓN EN UNITY Y UNREAL ENGINE &nbsp;|&nbsp; PLUG-IN MASTER AUDIO &nbsp;|&nbsp; AUDIO MANAGER'
+    ]
   ];
   require 'sections/que_hacemos.php';
 
@@ -75,51 +88,131 @@
   ];
   $destacados = [
     [
-      'src' => 'images/demo/discography/disco-1.jpg',
-      'alt' => 'Composición de Música',
-      'link' => 'https://google.es',
-      'titulo' => 'GREFUSA HEROES',
-      'desarrollador' => 'Play &amp Go',
-      'detalles' => 'Música y Efectos de Sonido',
+      'src' => 'images/destacados/GrefuHeroes.png',
       'ano' => '2019',
-    ],[
-      'src' => 'images/demo/discography/disco-1.jpg',
-      'alt' => 'Efectos de Sonido',
-      'link' => 'https://google.es',
-      'titulo' => 'MY GRANNY LALA &amp; ME',
-      'desarrollador' => 'Play &amp Go',
-      'detalles' => 'Efectos de Sonido',
-      'ano' => '2018',
-    ],[
-      'src' => 'images/demo/discography/disco-1.jpg',
-      'alt' => 'Diseño sonoro Adaptativo',
-      'link' => 'https://google.es',
-      'titulo' => 'CRISIS SERENA (WIP)',
-      'desarrollador' => 'Play &amp Go',
+      'alt' => 'GrefuHeroes',
+      'titulo' => 'GrefuHeroes',
+      'desarrollador' => 'Play &amp Go Experience',
       'detalles' => 'Música y Efectos de Sonido',
-      'ano' => '2017',
+      'link' => 'https://play.google.com/store/apps/details?id=com.playandgo.grefuheroes&hl=en_US',
     ],[
-      'src' => 'images/demo/discography/disco-1.jpg',
-      'alt' => 'Integración en el Motor Gráfico',
-      'link' => 'https://google.es',
-      'titulo' => 'GREFUSA HEROES',
-      'desarrollador' => 'Play &amp Go',
-      'detalles' => 'INTEGRACIÓN EN UNITY Y UNREAL ENGINE &nbsp;|&nbsp; PLUG-IN MASTER AUDIO &nbsp;|&nbsp; AUDIO MANAGER',
-      'ano' => '2016',
+      'src' => 'images/destacados/MyGrannyLala.png',
+      'ano' => '2019',
+      'alt' => 'My Granny Lala and Me',
+      'titulo' => 'My Granny Lala &amp; Me (DEMO)',
+      'desarrollador' => 'Two Cousins',
+      'detalles' => 'Efectos de Sonido',
+      'link' => 'http://beatrizolcina.com/portfolio/grandma-project',
+    ],[
+      'src' => 'images/destacados/3Cherry.png',
+      'ano' => '2019',
+      'alt' => '3Cherry Slots',
+      'titulo' => '3Cherry Slots',
+      'desarrollador' => 'Triple Cherry',
+      'detalles' => 'Música y Efectos de Sonido',
+      'link' => 'https://3cherry.com/',
+    ],[
+      'src' => 'images/destacados/CrisisSerena.png',
+      'ano' => '2018',
+      'alt' => 'Crisis Serena',
+      'titulo' => 'Crisis Serena (DEMO)',
+      'desarrollador' => 'Pixel Powa',
+      'detalles' => 'Música y Efectos de Sonido',
+      'link' => 'https://www.facebook.com/crisisserena/',
     ],
   ];
   $filas_tabla = [
-    ['', 'Grefusa Heroes', 'Música y Efectos de Sonido', 'Play &amp; Go', 'Android / iOS', '2019'],
-    ['', 'My Granny Lala and Me', 'Efectos de Sonido', 'Beatriz Olcina', 'PC', '2019'],
-    ['', 'Crisis Serena (WIP)', 'Música y Efectos de Sonido', 'Pixel Powa', 'PC', '2018'],
-    // ['', 'River (WIP)', 'Música y Efectos de Sonido', 'Studio Istmo', 'PC', '2017'],
-    ['', 'Robo Ball', 'Música', '<a target="_blank" href="https://joanmartinezclari.wordpress.com/">Joan Martinez Clari</a>', '<a target="_blank" href="https://play.google.com/store/apps/details?id=com.caparra.games.ball">Android</a> / iOS', '2016'],
-    ['', 'GenPoc', 'Música, Efectos de Sonido e Integración', '<a target="_blank" href="http://www.genpoc.com/">Drassana Games</a>', 'PC', '2016'],
-    ['', '<a target="_blank" href="http://www.bluefxgames.com/App/JoeJump">Joe Jump</a>', 'Música', '<a target="_blank" href="http://www.bluefxgames.com/">BlueFX Studio</a>', '<a target="_blank" href="https://play.google.com/store/apps/details?id=com.bluefxgames.joejump">Android</a> / iOS', '2016'],
-    ['', 'Tic Tac Traca', 'Efectos de Sonido', '<a target="_blank" href="http://www.laboratoryofdreams.com/">The Laboratory of Dreams</a>', '<a target="_blank" href="https://play.google.com/store/apps/details?id=com.laboratoryofdreams.tictactraca">Android</a> / iOS', '2016'],
-    ['', 'Mobsferatu', 'Efectos de Sonido', '<a target="_blank" href="http://www.cremagames.com/">Crema Games</a>', '<a target="_blank" href="https://cremagames.itch.io/mobsferatu">PC</a>', '2015'],
-    ['', 'EdVE', 'Producción de video y música', '<a target="_blank" href="https://www.facebook.com/groups/devsfromspain/">Devsfromspain</a> &amp; <a target="_blank" href="http://www.aevi.org.es/desarrollo-espanol/iniciativas/">AEVI</a>', '<a target="_blank" href="http://www.groovelstudio.com/?page_id=487">Youtube</a>', '2015'],
-    ['', 'Kill Blocks', 'Música y Efectos de Sonido', '<a target="_blank" href="http://mobilendo.com/">Mobilendo</a>', '<a target="_blank" href="https://play.google.com/store/apps/details?id=com.mobilendo.killblocks">Android</a> / <a target="_blank" href="https://itunes.apple.com/us/app/kill-blocks/id969491786?mt=8">iOS</a>', '2015']
+    [
+      'GrefuHeroes',
+      'Música y Efectos de Sonido',
+      'Play &amp Go Experience',
+      'Android / iOS',
+      '2019'
+    ],[
+      'My Granny Lala &amp; Me (DEMO)',
+      'Efectos de Sonido',
+      'Two Cousins',
+      'PC',
+      '2019'
+    ],[
+      '3Cherry Slots',
+      'Música y Efectos de Sonido',
+      'Triple Cherry',
+      'Web',
+      '2019'
+    ],[
+      'Nile Treasures',
+      'Música y Efectos de Sonido',
+      'Triple Cherry',
+      'Web',
+      '2019'
+    ],[
+      "7's Club",
+      'Música y Efectos de Sonido',
+      'Triple Cherry',
+      'Web',
+      '2019'
+    ],[
+      'Mystic Buffalo',
+      'Música y Efectos de Sonido',
+      'Triple Cherry',
+      'Web',
+      '2019'
+    ],[
+      'Gods Odyssey',
+      'Música y Efectos de Sonido',
+      'Triple Cherry',
+      'Web',
+      '2019'
+    ],[
+      'Crisis Serena (DEMO)',
+      'Música y Efectos de Sonido',
+      'Pixel Powa',
+      'PC',
+      '2018'
+    ],[
+      'Robo Ball',
+      'Música',
+      'Joan Martinez Clari',
+      'Android / iOS',
+      '2016'
+    ],[
+      'GenPoc (DEMO)',
+      'Música, Efectos de Sonido e Integración',
+      'Drassana Games',
+      'PC',
+      '2016'
+    ],[
+      'Joe Jump',
+      'Música',
+      'BlueFX Studio',
+      'Android / iOS',
+      '2016'
+    ],[
+      'Tic Tac Traca',
+      'Efectos de Sonido',
+      'The Laboratory of Dreams',
+      'Android / iOS / Switch',
+      '2016'
+    ],[
+      'Mobsferatu',
+      'Efectos de Sonido',
+      'Crema Games',
+      'PC',
+      '2015'
+    ],[
+      'EdVE',
+      'Producción de video y música',
+      'Devsfromspain &amp; AEVI',
+      'Youtube',
+      '2015'
+    ],[
+      'Kill Blocks',
+      'Música y Efectos de Sonido',
+      'Mobilendo',
+      'Android / iOS',
+      '2015'
+    ]
   ];
   require 'sections/proyectos.php';
 
