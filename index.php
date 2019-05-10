@@ -78,7 +78,7 @@
 
 
   // Bloque Tabla Proyectos
-  $titulo = "Proyectos";
+  $titulo = "Trabajos";
   $titulos_tabla = [
     'JUEGO',
     'TIPO DE TRABAJO',
@@ -214,7 +214,7 @@
       '2015'
     ]
   ];
-  require 'sections/proyectos.php';
+  require 'sections/trabajos.php';
 
 
   // Bloque Portfolio

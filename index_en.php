@@ -40,8 +40,8 @@
 
 
     // Bloque Quienes Somos
-    $titulo = "2 MEN STUDIO";
-    $subtitulo = "Juan Novella & <br>Alberto Trigueros";
+    $titulo = "ABOUT";
+    $subtitulo = "Groovel Studio";
     $texto = "We are Alberto and Juan, we offer music composition, sound design and music production services for a large number of genres and styles. We also offer sound design for any audiovisual content.
     <br><br>
     We are located in Madrid and Valencia and besides the sound production we work with specialized videogame software (Middleware) and video editing.
@@ -77,7 +77,7 @@
 
 
     // Bloque Tabla Proyectos
-    $titulo = "Proyects";
+    $titulo = "Works";
     $titulos_tabla = [
       'Game',
       'Type of Work',
@@ -213,7 +213,7 @@
         '2015'
       ]
     ];
-    require 'sections/proyectos.php';
+    require 'sections/trabajos.php';
 
 
     // Bloque Portfolio
