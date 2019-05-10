@@ -105,8 +105,8 @@
       ],[
         'src' => 'images/destacados/3Cherry.png',
         'ano' => '2019',
-        'alt' => '3Cherry Slots',
-        'titulo' => '3Cherry Slots',
+        'alt' => 'Triple Cherry Slots',
+        'titulo' => 'Triple Cherry Slots',
         'desarrollador' => 'Triple Cherry',
         'detalles' => 'Music &amp; Sound Effects',
         'link' => 'https://3cherry.com/',
@@ -132,12 +132,6 @@
         'Sound Effects',
         'Two Cousins',
         'PC',
-        '2019'
-      ],[
-        '3Cherry Slots',
-        'Music &amp; Sound Effects',
-        'Triple Cherry',
-        'Web',
         '2019'
       ],[
         'Nile Treasures',
@@ -168,6 +162,12 @@
         'Music &amp; Sound Effects',
         'Pixel Powa',
         'PC',
+        '2018'
+      ],[
+        "Pyme's Genocice",
+        'Music &amp; Sound Effects',
+        "Pyme's Genocide",
+        'PC / Mac / Web',
         '2018'
       ],[
         'Robo Ball',
