@@ -58,7 +58,7 @@
           <div class="social-links">
             <ul style="padding:0">
               <?php foreach ($social_links as $s): ?>
-                <li><a href="<?= $s['url'] ?>"><i class="fa fa-fw fa-<?= $s['icon'] ?>"></i></a></li>
+                <li><a target="_blank" href="<?= $s['url'] ?>"><i class="fa fa-fw fa-<?= $s['icon'] ?>"></i></a></li>
               <?php endforeach; ?>
             </ul>
           </div>

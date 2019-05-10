@@ -49,7 +49,7 @@
   <nav class="social-flotante">
     <ul>
       <?php foreach ($social_links as $s): ?>
-        <li><a href="<?= $s['url'] ?>"><?= $s['nombre'] ?> <i class="fa fa-fw fa-<?= $s['icon'] ?>"></i></a></li>
+        <li><a target="_blank" href="<?= $s['url'] ?>"><?= $s['nombre'] ?> <i class="fa fa-fw fa-<?= $s['icon'] ?>"></i></a></li>
       <?php endforeach; ?>
     </ul>
   </nav>
